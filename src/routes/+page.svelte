@@ -1,15 +1,23 @@
 <script lang="ts">
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
+
+	const title = "Hololive Fan Booth";
+	const description = "A Hololive Fan Booth by fans, for fans."
 </script>
 
 <svelte:head>
-	<title>Hololive Fan Booth</title>
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:creator" content="@danirukun" />
+	<title>{title}</title>
 	<meta property="og:url" content="https://www.hololivefanbooth.com" />
-	<meta property="og:title" content="Dokomi Hololive Fan Booth" />
-	<meta property="og:description" content="A Hololive Fan Booth by fans, for fans." />
+	<meta property="og:title" content={title} />
 	<meta property="og:image" content={fanboothLogoLarge} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="600" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image" content={fanboothLogoLarge} />
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-200">
