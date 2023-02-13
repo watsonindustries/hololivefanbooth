@@ -9,15 +9,15 @@
 	<title>{title}</title>
 	<meta property="og:url" content="https://www.hololivefanbooth.com" />
 	<meta property="og:title" content={title} />
-	<meta property="og:image" content={fanboothLogoLarge} />
+	<meta property="og:image" content="https://i.imgur.com/wW1hNrX.png" />
 	<meta property="og:description" content={description} />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="600" />
+	<meta property="og:image:width" content="1701" />
+	<meta property="og:image:height" content="1134" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content={fanboothLogoLarge} />
+	<meta name="twitter:image" content="https://i.imgur.com/wW1hNrX.png" />
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-200">
