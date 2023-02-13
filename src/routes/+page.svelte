@@ -3,6 +3,7 @@
 </script>
 
 <svelte:head>
+	<title>Hololive Fan Booth</title>
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@danirukun" />
 	<meta property="og:url" content="https://www.hololivefanbooth.com" />
