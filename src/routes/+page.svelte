@@ -23,8 +23,8 @@
 <div class="hero min-h-screen bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-md space-y-3">
-			<img src={fanboothLogoLarge} alt="Dokomi Hololive Fan Booth Logo Large" />
-			<h1 class="text-5xl font-bold">Dokomi Hololive Fan Booth</h1>
+			<img src={fanboothLogoLarge} alt="DoKomi Hololive Fan Booth Logo Large" />
+			<h1 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">DoKomi Hololive Fan Booth</h1>
 			<h2 class="text-3xl font-semibold">30.06.2023 - 02.07.2023</h2>
 
 			<p class="inline-block text-lg">at</p>
