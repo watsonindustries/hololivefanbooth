@@ -1,6 +1,7 @@
 <script lang="ts">
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
+	import { TriangleKind } from '../const';
 
 	const title = 'Hololive Fan Booth';
 	const description = 'A Hololive Fan Booth by fans, for fans.';
@@ -22,8 +23,12 @@
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-200 relative">
-
-<TriangleIcon></TriangleIcon>
+	<TriangleIcon position="lg:left-48 top-16" kind={TriangleKind.B} />
+	<TriangleIcon position="left-10 lg:left-24" />
+	<TriangleIcon position="right-24 top-32" delay="animation-delay-2000" kind={TriangleKind.B} />
+	<TriangleIcon position="right-48 bottom-36" delay="animation-delay-4000" kind={TriangleKind.B} />
+	<TriangleIcon position="left-32 lg:left-80 bottom-12" kind={TriangleKind.B} />
+	<TriangleIcon position="right-10 bottom-96"></TriangleIcon>
 
 	<div class="hero-content text-center">
 		<div class="max-w-md space-y-3">
