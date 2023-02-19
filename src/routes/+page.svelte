@@ -19,15 +19,27 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content="https://i.imgur.com/wW1hNrX.png" />
 </svelte:head>
 
-<div class="hero min-h-screen bg-base-200 relative">
-	<TriangleIcon position="left-20 lg:left-48 top-16" kind={TriangleKind.A} delay="animation-delay-2000"/>
-	<TriangleIcon position="left-28 lg:left-40 top-16" kind={TriangleKind.B} delay="animation-delay-4000"/>
+<div class="hero min-h-screen bg-base-100 relative">
+	<TriangleIcon
+		position="left-20 lg:left-48 top-16"
+		kind={TriangleKind.A}
+		delay="animation-delay-2000"
+	/>
+	<TriangleIcon
+		position="left-28 lg:left-40 top-16"
+		kind={TriangleKind.B}
+		delay="animation-delay-4000"
+	/>
 	<TriangleIcon position="left-10 lg:left-24" />
-	<TriangleIcon position="right-12 top-32" delay="animation-delay-2000" kind={TriangleKind.A} />
-	<TriangleIcon position="right-24 top-60 lg:top-96" delay="animation-delay-4000" kind={TriangleKind.B} />
+	<TriangleIcon position="top-60 lg:top-36" delay="animation-delay-2000" />
+	<TriangleIcon position="right-12 top-32" kind={TriangleKind.A} />
+	<TriangleIcon
+		position="right-24 top-60 lg:top-96"
+		delay="animation-delay-4000"
+		kind={TriangleKind.B}
+	/>
 	<TriangleIcon position="right-10 lg:right-20" delay="animation-delay-2000" />
 
 	<div class="hero-content text-center">
@@ -43,8 +55,10 @@
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
 
-			<p class="py-6 text-2xl font-bold">Coming Soon!</p>
+			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!</p>
 			<a href="https://www.dokomi.de/en" class="link link-primary">Dokomi.de</a>
+			<br />
+			<a href="https://ko-fi.com/kfptheoffice" class="link link-primary">KFP The Office</a>
 		</div>
 	</div>
 </div>
