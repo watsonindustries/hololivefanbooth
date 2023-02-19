@@ -23,12 +23,12 @@
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-200 relative">
-	<TriangleIcon position="lg:left-48 top-16" kind={TriangleKind.B} />
+	<TriangleIcon position="left-20 lg:left-48 top-16" kind={TriangleKind.A} delay="animation-delay-2000"/>
+	<TriangleIcon position="left-28 lg:left-40 top-16" kind={TriangleKind.B} delay="animation-delay-4000"/>
 	<TriangleIcon position="left-10 lg:left-24" />
-	<TriangleIcon position="right-24 top-32" delay="animation-delay-2000" kind={TriangleKind.B} />
-	<TriangleIcon position="right-48 bottom-36" delay="animation-delay-4000" kind={TriangleKind.B} />
-	<TriangleIcon position="left-32 lg:left-80 bottom-12" kind={TriangleKind.B} />
-	<TriangleIcon position="right-10 bottom-96"></TriangleIcon>
+	<TriangleIcon position="right-12 top-32" delay="animation-delay-2000" kind={TriangleKind.A} />
+	<TriangleIcon position="right-24 top-60 lg:top-96" delay="animation-delay-4000" kind={TriangleKind.B} />
+	<TriangleIcon position="right-10 lg:right-20" delay="animation-delay-2000" />
 
 	<div class="hero-content text-center">
 		<div class="max-w-md space-y-3">
