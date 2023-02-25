@@ -55,10 +55,19 @@
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
 
-			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!</p>
-			<a href="https://www.dokomi.de/en" class="link link-primary">Dokomi.de</a>
+			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!
+				
+				
+			</p>
+			<a href="https://forms.gle/C8cLHhz4Ytp6Zp1J9" class="font-bold text-2xl link link-primary no-underline hover:text-orange-600">Wanna help out? 
+				<br /> Ideas for events? 
+				<br />Any questions?
+				<br />Click here
+			</a>
 			<br />
-			<a href="https://ko-fi.com/kfptheoffice" class="link link-primary">KFP The Office</a>
+			<br />
+			<a href="https://www.dokomi.de/en" class="link link-primary hover:text-orange-600">DoKomi.de</a>
+			<br />
 		</div>
 	</div>
 </div>
