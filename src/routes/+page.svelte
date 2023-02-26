@@ -5,6 +5,7 @@
 
 	const title = 'Hololive Fan Booth';
 	const description = 'A Hololive Fan Booth by fans, for fans.';
+	const googleFormURL = 'https://forms.gle/C8cLHhz4Ytp6Zp1J9';
 </script>
 
 <svelte:head>
@@ -55,19 +56,21 @@
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
 
-			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!
-				
-				
-			</p>
-			<a href="https://forms.gle/C8cLHhz4Ytp6Zp1J9" class="font-bold text-2xl link link-primary no-underline hover:text-orange-600">Wanna help out? 
-				<br /> Ideas for events? 
-				<br />Any questions?
-				<br />Click here
-			</a>
-			<br />
-			<br />
-			<a href="https://www.dokomi.de/en" class="link link-primary hover:text-orange-600">DoKomi.de</a>
-			<br />
+			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!</p>
+
+			<div id="info" class="flex flex-col py-3 space-y-6">
+				<p class="font-bold text-2xl text-primary">
+					Wanna help out? Ideas for events? <br /> Any questions?
+				</p>
+
+				<a
+					href={googleFormURL}
+					class="btn btn-primary rounded-3xl max-w-xs mx-auto hover:bg-secondary hover:border-secondary">Click Here</a
+				>
+				<a href="https://www.dokomi.de/en" class="link link-primary hover:text-orange-600"
+					>DoKomi.de</a
+				>
+			</div>
 		</div>
 	</div>
 </div>
