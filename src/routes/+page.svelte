@@ -13,6 +13,7 @@
 	<meta property="og:url" content="https://www.hololivefanbooth.com" />
 	<meta property="og:title" content={title} />
 	<meta property="og:image" content="https://i.imgur.com/wW1hNrX.png" />
+	<meta property="og:image:secure_url" content="https://i.imgur.com/wW1hNrX.png" />
 	<meta property="og:description" content={description} />
 	<meta property="og:image:width" content="1701" />
 	<meta property="og:image:height" content="1134" />
