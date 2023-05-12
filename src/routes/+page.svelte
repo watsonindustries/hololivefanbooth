@@ -68,9 +68,10 @@
 					href={googleFormURL}
 					class="btn btn-primary rounded-full max-w-xs mx-auto hover:bg-secondary hover:border-secondary hover:scale-110 transition">Click Here</a
 				>
-				<a href="https://www.dokomi.de/en" class="link link-primary hover:text-orange-600"
+				<!-- <a href="https://www.dokomi.de/en" class="link link-primary hover:text-orange-600"
 					>DoKomi.de</a
-				>
+				> -->
+				<a href="/about" class="link link-info link-hover">Learn more</a>
 			</div>
 		</div>
 	</div>
