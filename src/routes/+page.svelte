@@ -3,25 +3,8 @@
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
 	import { TriangleKind } from '../const';
 
-	const title = 'Hololive Fan Booth';
-	const description = 'A Hololive Fan Booth by fans, for fans.';
 	const googleFormURL = 'https://forms.gle/C8cLHhz4Ytp6Zp1J9';
 </script>
-
-<svelte:head>
-	<title>{title}</title>
-	<meta property="og:url" content="https://www.hololivefanbooth.com" />
-	<meta property="og:title" content={title} />
-	<meta property="og:image" content="https://i.imgur.com/wW1hNrX.png" />
-	<meta property="og:image:secure_url" content="https://i.imgur.com/wW1hNrX.png" />
-	<meta property="og:description" content={description} />
-	<meta property="og:image:width" content="1701" />
-	<meta property="og:image:height" content="1134" />
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={description} />
-</svelte:head>
 
 <div class="hero min-h-screen bg-base-100 relative">
 	<TriangleIcon
