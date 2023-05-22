@@ -6,11 +6,10 @@
 	export let delay = 'animation-delay-2000';
 </script>
 
-{#if kind == TriangleKind.A}
-	<!-- assymetric kind -->
-	<div
-		class="absolute filter blur-md animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}"
-	>
+<div
+	class="absolute filter blur-md animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}"
+>
+	{#if kind == TriangleKind.A}
 		<svg class="w-32 h-32" viewBox="0 0 3832 3861"
 			><path
 				d="m.062-.467.875-.012a.062.062 0 0 1 .055.093l-.45.812A.062.062 0 0 1 .433.425l-.426-.8a.076.076 0 0 1-.006-.02.062.062 0 0 1 .061-.072Z"
@@ -33,12 +32,7 @@
 				>
 			</defs>
 		</svg>
-	</div>
-{:else}
-	<!-- less assymetric -->
-	<div
-		class="absolute filter blur-md animate-blob {position} {delay} mix-blend-multiply dark:mix-blend-soft-light"
-	>
+	{:else}
 		<svg
 			class="w-32 h-32"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
@@ -63,5 +57,5 @@
 				</linearGradient>
 			</defs>
 		</svg>
-	</div>
-{/if}
+	{/if}
+</div>
