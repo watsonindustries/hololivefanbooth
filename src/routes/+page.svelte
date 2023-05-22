@@ -45,8 +45,8 @@
 	<TriangleIcon position="right-10 lg:right-20" delay="animation-delay-2000" />
 
 	<div class="hero-content text-center">
-		<div class="max-w-md space-y-3">
-			<img src={fanboothLogoLarge} alt="DoKomi Hololive Fan Booth Logo Large" />
+		<div class="max-w-lg space-y-3">
+			<img src={fanboothLogoLarge} alt="DoKomi Hololive Fan Booth Logo Large" width="1200" height="800"/>
 			<h1
 				class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
 			>

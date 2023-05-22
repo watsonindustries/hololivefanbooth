@@ -40,7 +40,7 @@
 		</section>
 
 		<section class="mb-10">
-			<h1 class="text-4xl mb-4 font-bold text-secondary">About Dokomi</h1>
+			<h1 class="text-4xl mb-4 font-bold text-secondary">About DoKomi</h1>
 			<p class="text-lg">
 				<a href="https://www.dokomi.de/en" class="link link-primary">DoKomi</a> is the largest anime
 				and Japan expo in Germany. It's a yearly event where fans of anime, manga, and Japanese culture
