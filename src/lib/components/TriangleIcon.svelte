@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="absolute filter blur-md animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}"
+	class="absolute filter blur-md will-change-transform animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}"
 >
 	{#if kind == TriangleKind.A}
 		<svg class="w-32 h-32" viewBox="0 0 3832 3861"
