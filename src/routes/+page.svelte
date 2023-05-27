@@ -25,9 +25,9 @@
 
 	<MiniTriangle position="left-1/3 top-1/3" delay="animation-delay-2000" />
 	<MiniTriangle position="right-1/4 top-1/4" delay="animation-delay-1000" type={2} />
-	<MiniTriangle position="left-1/3 bottom-1/3" delay="animation-delay-3000" type={4}/>
+	<!-- <MiniTriangle position="left-1/3 bottom-1/3" delay="animation-delay-3000" type={4}/>
 	<MiniTriangle position="right-3/4 bottom-1/3" delay="animation-delay-1000" type={3} />
-	<MiniTriangle position="left-3/4 bottom-1/4" delay="animation-delay-3000" type={2} />
+	<MiniTriangle position="left-3/4 bottom-1/4" delay="animation-delay-3000" type={2} /> -->
 
 	<div class="hero-content text-center">
 		<div class="max-w-lg space-y-3">
@@ -59,9 +59,9 @@
 	</div>
 </div>
 
-<div class="hero min-h-screen bg-primary">
+<div class="hero min-h-screen bg-primary w-full">
   <div class="hero-content text-center">
-    <div class="max-w-md">
+    <div class="">
       <h1 class="text-6xl font-bold text-base-100">Events</h1>
       <p class="py-6 text-secondary text-2xl">Coming soon!</p>
     </div>
