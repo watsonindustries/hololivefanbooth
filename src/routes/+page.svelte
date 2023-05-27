@@ -58,3 +58,12 @@
 		</div>
 	</div>
 </div>
+
+<div class="hero min-h-screen bg-primary">
+  <div class="hero-content text-center">
+    <div class="max-w-md">
+      <h1 class="text-6xl font-bold text-base-100">Events</h1>
+      <p class="py-6 text-secondary text-2xl">Coming soon!</p>
+    </div>
+  </div>
+</div>

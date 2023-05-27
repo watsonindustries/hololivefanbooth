@@ -48,6 +48,15 @@
 				some of their favorite VTubers.
 			</p>
 		</section>
+
+		<section class="mb-10">
+			<h1 class="text-4xl mb-4 font-bold text-secondary">About the Fan Booth</h1>
+			<p class="text-lg">
+				The Hololive Fan Booth is a project by fans of Hololive for the second year in a row, to
+				create a space for Hololive fans to gather, participate in fun events, and learn about
+				Hololive and vtubers!
+			</p>
+		</section>
 	</div>
 </div>
 
