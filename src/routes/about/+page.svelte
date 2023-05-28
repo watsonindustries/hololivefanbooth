@@ -4,6 +4,10 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - About</title>
+</svelte:head>
+
 <div class="p-10 bg-stars bg-fixed">
 	<div class="max-w-4xl mx-auto">
 		<section class="mb-10 space-y-8">

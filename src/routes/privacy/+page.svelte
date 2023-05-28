@@ -6,6 +6,10 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - Privacy Policy</title>
+</svelte:head>
+
 <template>
 	<div class="bg-white py-10 px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32">
 		<h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>

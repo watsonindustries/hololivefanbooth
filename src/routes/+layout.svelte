@@ -11,7 +11,6 @@
 <Navigation></Navigation>
 
 <svelte:head>
-	<title>{title}</title>
 	<meta property="og:url" content="https://www.hololivefanbooth.com" />
 	<meta property="og:title" content={title + ' for DoKomi 2023'} />
 	<meta property="og:image" content={boothLogoLarge} />

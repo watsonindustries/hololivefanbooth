@@ -6,6 +6,10 @@
 	import { TriangleKind, contactFormURL } from '../const';
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - Home</title>
+</svelte:head>
+
 <div class="hero min-h-screen bg-base-100 relative">
 	<TriangleIcon
 		position="left-20 lg:left-48 top-16"
