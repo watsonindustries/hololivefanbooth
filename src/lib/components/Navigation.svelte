@@ -1,0 +1,28 @@
+<script lang="ts">
+	import { contactFormURL } from "../../const";
+
+	const tabs = [
+		{
+			name: 'Home',
+			href: '/',
+		},
+		{
+			name: 'About',
+			href: '/about',
+		},
+		{
+			name: 'Contact',
+			href: contactFormURL,
+		},
+	];
+</script>
+
+<div class="navbar bg-base-100">
+  <div class="flex-1">
+		<ul class="menu menu-horizontal px-1 text-primary">
+			{#each tabs as tab}
+			<li><a href={tab.href} class="hover:text-secondary">{tab.name}</a></li>
+			{/each}
+		</ul>
+  </div>
+</div>

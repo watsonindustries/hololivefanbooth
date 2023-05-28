@@ -2,9 +2,7 @@
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
-	import { TriangleKind } from '../const';
-
-	const googleFormURL = 'https://forms.gle/C8cLHhz4Ytp6Zp1J9';
+	import { TriangleKind, contactFormURL } from '../const';
 </script>
 
 <div class="hero min-h-screen bg-base-100 relative">
@@ -50,7 +48,7 @@
 				</p>
 
 				<a
-					href={googleFormURL}
+					href={contactFormURL}
 					class="btn btn-primary rounded-full max-w-xs mx-auto hover:bg-secondary hover:border-secondary hover:scale-110 transition">Click Here</a
 				>
 				<a href="/about" class="link link-info link-hover">Learn more</a>

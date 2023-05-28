@@ -5,7 +5,10 @@
 	const description = 'A Hololive Fan Booth by fans, for fans.';
 
 	import boothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
+	import Navigation from '$lib/components/Navigation.svelte';
 </script>
+
+<Navigation></Navigation>
 
 <svelte:head>
 	<title>{title}</title>
