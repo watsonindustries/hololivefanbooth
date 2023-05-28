@@ -1,5 +1,6 @@
 <script lang="ts">
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
+	import Events from '$lib/components/Events.svelte';
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
 	import { TriangleKind, contactFormURL } from '../const';
@@ -29,7 +30,12 @@
 
 	<div class="hero-content text-center">
 		<div class="max-w-lg space-y-3">
-			<img src={fanboothLogoLarge} alt="DoKomi Hololive Fan Booth Logo Large" width="1200" height="800"/>
+			<img
+				src={fanboothLogoLarge}
+				alt="DoKomi Hololive Fan Booth Logo Large"
+				width="1200"
+				height="800"
+			/>
 			<h1
 				class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
 			>
@@ -49,7 +55,8 @@
 
 				<a
 					href={contactFormURL}
-					class="btn btn-primary rounded-full max-w-xs mx-auto hover:bg-secondary hover:border-secondary hover:scale-110 transition">Click Here</a
+					class="btn btn-primary rounded-full max-w-xs mx-auto hover:bg-secondary hover:border-secondary hover:scale-110 transition"
+					>Click Here</a
 				>
 				<a href="/about" class="link link-info link-hover">Learn more</a>
 			</div>
@@ -57,11 +64,4 @@
 	</div>
 </div>
 
- <div class="hero min-h-screen bg-primary w-full bg-sprinkle">
-  <div class="hero-content text-center">
-    <div class="">
-      <h1 class="text-6xl font-bold text-base-100">Events</h1>
-      <p class="py-6 text-secondary text-2xl">Coming soon!</p>
-    </div>
-  </div>
-</div>
+<Events></Events>
