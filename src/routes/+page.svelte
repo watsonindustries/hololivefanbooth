@@ -59,7 +59,7 @@
 	</div>
 </div>
 
-<div class="hero min-h-screen bg-primary w-full">
+ <div class="hero min-h-screen bg-primary w-full bg-sprinkle">
   <div class="hero-content text-center">
     <div class="">
       <h1 class="text-6xl font-bold text-base-100">Events</h1>
