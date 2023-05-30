@@ -34,13 +34,13 @@ const config = {
         light: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
           primary: "#73dcff",
-          "primary-focus": "mediumblue",
+          "primary-focus": "#546aff",
 					secondary: "#546aff",
         },
 				dark: {
 					...require("daisyui/src/colors/themes")["[data-theme=dark]"],
 					primary: "#73dcff",
-					"primary-focus": "mediumblue",
+					"primary-focus": "#546aff",
 					secondary: "#546aff",
 				}
       },

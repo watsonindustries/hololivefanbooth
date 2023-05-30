@@ -19,9 +19,9 @@
 
 <div class="navbar bg-base-100">
   <div class="flex-1">
-		<ul class="menu menu-horizontal px-1 text-primary">
+		<ul class="menu menu-horizontal px-1 text-secondary font-semibold dark:text-primary">
 			{#each tabs as tab}
-			<li><a href={tab.href} class="hover:text-secondary">{tab.name}</a></li>
+			<li><a href={tab.href} class="hover:text-primary-focus">{tab.name}</a></li>
 			{/each}
 		</ul>
   </div>

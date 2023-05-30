@@ -50,22 +50,29 @@
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
 
-			<p class="py-6 text-2xl font-bold text-secondary">Coming Soon!</p>
-
 			<div id="info" class="flex flex-col py-3 space-y-6">
 				<p class="font-bold text-2xl text-primary">
-					Wanna help out? Ideas for events? <br /> Any questions?
+					Interested? Want to participate? Want to know more?
 				</p>
 
 				<a
 					href={contactFormURL}
-					class="btn btn-primary rounded-full max-w-xs mx-auto hover:bg-secondary hover:border-secondary hover:scale-110 transition"
-					>Click Here</a
+					class="btn btn-primary rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
+					>Contact Us</a
 				>
-				<a href="/about" class="link link-info link-hover">Learn more</a>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="hero h-72 bg-secondary bg-blend-multiply">
+	<div class="hero-overlay bg-opacity-40 bg-texture bg-fixed"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md space-y-4">
+      <h1 class="mb-5 text-6xl font-bold text-primary">About the <span class="text-base-100">booth</span></h1>
+      <a class="btn btn-primary btn-lg rounded-full px-12" href="/about">About</a>
+    </div>
+  </div>
 </div>
 
 <Events></Events>
