@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { contactFormURL } from "../../const";
-
 	const tabs = [
 		{
 			name: 'Home',
@@ -12,7 +10,7 @@
 		},
 		{
 			name: 'Contact',
-			href: contactFormURL,
+			href: '/contact',
 		},
 	];
 </script>

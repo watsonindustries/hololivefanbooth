@@ -14,10 +14,17 @@
 			>
 			<span class="text-neutral-500 mx-2">|</span>
 			<a
+				href="/contact"
+				class="mt-2 font-medium link link-secondary link-hover transition duration-400 ease-in-out"
+				>Contact</a
+			>
+			<span class="text-neutral-500 mx-2">|</span>
+			<a
 				href="/privacy"
 				class="mt-2 font-medium link link-secondary link-hover transition duration-400 ease-in-out"
 				>Privacy Policy</a
 			>
+
 		</p>
 		<p>
 			Copyright © 2023 - Powered by
