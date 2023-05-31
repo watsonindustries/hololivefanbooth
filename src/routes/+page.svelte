@@ -52,12 +52,12 @@
 
 			<div id="info" class="flex flex-col py-3 space-y-6">
 				<p class="font-bold text-2xl text-primary">
-					Interested? Want to participate? Want to know more?
+					Interested? Want to participate?
 				</p>
 
 				<a
 					href={contactFormURL}
-					class="btn btn-primary rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
+					class="btn btn-primary btn-lg rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
 					>Contact Us</a
 				>
 			</div>
@@ -69,7 +69,7 @@
 	<div class="hero-overlay bg-opacity-40 bg-texture bg-fixed"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md space-y-4">
-      <h1 class="mb-5 text-6xl font-bold text-primary">About the <span class="text-base-100">booth</span></h1>
+      <h1 class="mb-5 text-6xl font-bold text-primary">Learn <span class="text-base-100">more</span></h1>
       <a class="btn btn-primary btn-lg rounded-full px-12" href="/about">About</a>
     </div>
   </div>
