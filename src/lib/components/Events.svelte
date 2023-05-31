@@ -8,7 +8,7 @@
 		<div class="space-y-8">
 			<h1 class="text-8xl font-bold text-base-100">Events</h1>
 			<div class="text-base-100 space-y-6 font-semibold">
-				<a href="https://www.dokomi.de/en/cosplay/cosplay-gatherings/hololive-gruppenshooting" class="link-hover text-4xl inline-flex items-center justify-center gap-2">
+				<a href="https://www.dokomi.de/en/cosplay/cosplay-gatherings/hololive-gruppenshooting-" class="link-hover text-4xl inline-flex items-center justify-center gap-2">
 					Cosplay Gathering <Icon src={ArrowTopRightOnSquare} size="24px" theme="solid" />
 				</a>
 				<p class="text-4xl">Other Events TBA</p>
