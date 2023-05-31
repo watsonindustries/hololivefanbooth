@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
-	<div class="hero h-[100vh] sm:h-[75vh]">
+	<div class="hero h-[screen] sm:h-[75vh]">
 		<div class="hero-content flex-col lg:flex-row-reverse mx-8">
 			<img
 				width="800"
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<div class="hero h-[60vh] sm:h-[40vh] bg-secondary">
+	<div class="hero h-[70vh] sm:h-[40vh] bg-secondary">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="space-y-4 mx-8">
 				<h1 class="text-6xl text-primary text-center font-bold">What are VTubers?</h1>
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 
-	<div class="hero h-[60vh] sm:h-[40vh] bg-transparent">
+	<div class="hero h-[70vh] sm:h-[40vh] bg-transparent">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="space-y-4 mx-8">
 				<h1 class="text-6xl text-base-100 text-center font-bold">
