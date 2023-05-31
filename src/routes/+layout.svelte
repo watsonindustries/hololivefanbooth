@@ -29,6 +29,9 @@
 			}
 		]
 	}}
+	twitter={{
+		cardType: 'summary_large_image'
+	}}
 	additionalMetaTags={[
 		{
 			property: 'og:image:secure_url',
