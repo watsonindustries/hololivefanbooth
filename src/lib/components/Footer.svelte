@@ -21,7 +21,7 @@
 		</p>
 		<p>
 			Copyright © 2023 - Powered by
-			<a href="https://watsonindustries.live" class="link">Watson Industries</a> - Not affiliated
+			<a href="https://github.com/watsonindustries" class="link">Watson Industries</a> - Not affiliated
 			with <a href="https://cover-corp.com" class="link">Cover Corp</a>
 		</p>
 	</div>
