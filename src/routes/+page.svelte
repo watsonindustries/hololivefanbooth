@@ -3,12 +3,20 @@
 	import Events from '$lib/components/Events.svelte';
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
-	import { TriangleKind } from '../const';
+	import { TriangleKind, twitterIntentURL } from '../const';
+
+	import { Twitter } from '@steeze-ui/simple-icons';
+	import { Icon } from '@steeze-ui/svelte-icon';
+
+
 </script>
 
 <svelte:head>
 	<title>Hololive Fan Booth - Home</title>
-	<meta name="description" content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans.">
+	<meta
+		name="description"
+		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans."
+	/>
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-100 relative">
@@ -42,7 +50,7 @@
 				height="800"
 			/>
 			<h1
-				class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
+				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
 			>
 				DoKomi Hololive Fan Booth
 			</h1>
@@ -52,9 +60,7 @@
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
 
 			<div id="info" class="flex flex-col py-3 space-y-6">
-				<p class="font-bold text-2xl text-primary">
-					Interested? Want to participate?
-				</p>
+				<p class="font-bold text-2xl text-primary">Interested? Want to participate?</p>
 
 				<a
 					href="/contact"
@@ -67,13 +73,31 @@
 </div>
 
 <div class="hero h-72 bg-secondary bg-blend-multiply">
-	<div class="hero-overlay bg-opacity-40 bg-texture bg-fixed"></div>
-  <div class="hero-content text-center text-neutral-content">
-    <div class="max-w-md space-y-4">
-      <h1 class="mb-5 text-6xl font-bold text-primary">Learn <span class="text-base-100">more</span></h1>
-      <a class="btn btn-primary btn-lg rounded-full px-12" href="/about">About</a>
-    </div>
-  </div>
+	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md space-y-4">
+			<h1 class="mb-5 text-6xl font-bold text-primary">
+				Learn <span class="text-base-100">more</span>
+			</h1>
+			<a class="btn btn-primary btn-lg rounded-full px-12" href="/about">About</a>
+		</div>
+	</div>
 </div>
 
-<Events></Events>
+<Events />
+
+<div class="hero h-72 bg-secondary">
+	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md space-y-4">
+			<h1
+				class="mb-5 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
+			>
+				Share
+			</h1>
+				<a class="btn bg-[#1DA1F2] hover:bg-[#0176c8] hover:scale-105 btn-lg rounded-full gap-2 text-xl text-base-100 font-bold border-0" href={twitterIntentURL}>
+					<Icon src={Twitter} size="24" /> #hololivefanbooth
+				</a>
+		</div>
+	</div>
+</div>
