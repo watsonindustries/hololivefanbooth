@@ -5,6 +5,11 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - Contact</title>
+	<meta name="description" content="Contact the Hololive Dokomi 2023 fan booth organizers.">
+</svelte:head>
+
 <div class="bg-shapes bg-secondary">
 	<div class="hero min-h-screen backdrop-blur-sm">
 		<div
