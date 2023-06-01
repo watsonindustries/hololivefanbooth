@@ -3,7 +3,7 @@
 	import Events from '$lib/components/Events.svelte';
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
-	import { TriangleKind, contactFormURL } from '../const';
+	import { TriangleKind } from '../const';
 </script>
 
 <svelte:head>
@@ -57,7 +57,7 @@
 				</p>
 
 				<a
-					href={contactFormURL}
+					href="/contact"
 					class="btn btn-primary btn-lg rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
 					>Contact Us</a
 				>
