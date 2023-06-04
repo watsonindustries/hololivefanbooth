@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-    const contactEmail = "hololivefanbooth@gmail.com";
+	const contactEmail = 'hololivefanbooth@gmail.com';
 
 	export let data: PageData;
 </script>

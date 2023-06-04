@@ -2,25 +2,25 @@
 	const tabs = [
 		{
 			name: 'Home',
-			href: '/',
+			href: '/'
 		},
 		{
 			name: 'About',
-			href: '/about',
+			href: '/about'
 		},
 		{
 			name: 'Contact',
-			href: '/contact',
-		},
+			href: '/contact'
+		}
 	];
 </script>
 
 <div class="navbar bg-base-100">
-  <div class="flex-1">
+	<div class="flex-1">
 		<ul class="menu menu-horizontal px-1 text-secondary font-semibold dark:text-primary">
 			{#each tabs as tab}
-			<li><a href={tab.href} class="hover:text-primary-focus">{tab.name}</a></li>
+				<li><a href={tab.href} class="hover:text-primary-focus">{tab.name}</a></li>
 			{/each}
 		</ul>
-  </div>
+	</div>
 </div>

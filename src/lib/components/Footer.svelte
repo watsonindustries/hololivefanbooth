@@ -24,12 +24,11 @@
 				class="mt-2 font-medium link link-secondary link-hover transition duration-400 ease-in-out"
 				>Privacy Policy</a
 			>
-
 		</p>
 		<p>
 			Copyright © 2023 - Powered by
-			<a href="https://github.com/watsonindustries" class="link">Watson Industries</a> - Not affiliated
-			with <a href="https://cover-corp.com" class="link">Cover Corp</a>
+			<a href="https://github.com/watsonindustries" class="link">Watson Industries</a> - Not
+			affiliated with <a href="https://cover-corp.com" class="link">Cover Corp</a>
 		</p>
 	</div>
 </footer>

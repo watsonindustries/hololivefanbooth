@@ -6,7 +6,10 @@
 
 <svelte:head>
 	<title>Hololive Fan Booth - About</title>
-	<meta name="description" content="Info about the Hololive Dokomi 2023 fan booth, such as who organizes it, where it is from, what are VTubers etc.">
+	<meta
+		name="description"
+		content="Info about the Hololive Dokomi 2023 fan booth, such as who organizes it, where it is from, what are VTubers etc."
+	/>
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
@@ -21,8 +24,10 @@
 			<div>
 				<h1 class="text-8xl text-secondary font-bold">About the Fan Booth</h1>
 				<p class="py-6 text-base-100 text-2xl font-semibold">
-					The unofficial Fan Booth is a project organised for the second year in a row at <a href="https://www.dokomi.de/en" class="link link-secondary transition-colors">DoKomi</a>,
-					Germany's biggest Anime and Japan Expo.
+					The unofficial Fan Booth is a project organised for the second year in a row at <a
+						href="https://www.dokomi.de/en"
+						class="link link-secondary transition-colors">DoKomi</a
+					>, Germany's biggest Anime and Japan Expo.
 				</p>
 			</div>
 		</div>
@@ -51,11 +56,14 @@
 					What is <span class="text-secondary underline">hololive</span>?
 				</h1>
 				<p class="py-6 text-2xl text-base-100 font-semibold">
-					<a href="https://hololivepro.com/en/" class="link link-secondary transition-colors">Hololive Production</a> is
-					a VTuber agency consisting of hololive and HOLOSTARS. Owned by the Japanese company
-					<a href="https://cover-corp.com" class="link link-secondary transition-colors">Cover Corporation</a>,
-					Hololive's VTubers deliver regular livestreams on platforms like YouTube and Twitch, where
-					they engage in activities ranging from singing to playing video games.
+					<a href="https://hololivepro.com/en/" class="link link-secondary transition-colors"
+						>Hololive Production</a
+					>
+					is a VTuber agency consisting of hololive and HOLOSTARS. Owned by the Japanese company
+					<a href="https://cover-corp.com" class="link link-secondary transition-colors"
+						>Cover Corporation</a
+					>, Hololive's VTubers deliver regular livestreams on platforms like YouTube and Twitch,
+					where they engage in activities ranging from singing to playing video games.
 				</p>
 			</div>
 		</div>

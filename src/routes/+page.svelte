@@ -1,14 +1,11 @@
 <script lang="ts">
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 	import Events from '$lib/components/Events.svelte';
+	import KofiButton from '$lib/components/KofiButton.svelte';
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
-	import { TriangleKind, twitterIntentURL } from '../const';
-
-	import { Twitter } from '@steeze-ui/simple-icons';
-	import { Icon } from '@steeze-ui/svelte-icon';
-
-
+	import TwitterShareButton from '$lib/components/TwitterShareButton.svelte';
+	import { TriangleKind } from '../const';
 </script>
 
 <svelte:head>
@@ -95,9 +92,21 @@
 			>
 				Share
 			</h1>
-				<a class="btn bg-[#1DA1F2] hover:bg-[#0176c8] hover:scale-105 btn-lg rounded-full gap-2 text-xl text-base-100 font-bold border-0" href={twitterIntentURL}>
-					<Icon src={Twitter} size="24" /> #hololivefanbooth
-				</a>
+			<TwitterShareButton />
+		</div>
+	</div>
+</div>
+
+<div class="hero h-80 bg-primary bg-sprinkle" id="support">
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md space-y-6">
+			<h1 class="mb-5 text-6xl font-bold text-secondary">
+				Support <span class="text-base-100">us</span>
+			</h1>
+			<p class="text-2xl font-semibold">
+				With your support, we plan to create flyers, delightful postcards, and more!
+			</p>
+			<KofiButton />
 		</div>
 	</div>
 </div>
