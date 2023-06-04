@@ -11,7 +11,12 @@
 		{
 			name: 'Contact',
 			href: '/contact'
+		},
+		{
+			name: 'Support',
+			href: '/#support'
 		}
+
 	];
 </script>
 
