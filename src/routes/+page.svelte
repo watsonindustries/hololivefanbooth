@@ -12,24 +12,21 @@
 	<title>Hololive Fan Booth - Home</title>
 	<meta
 		name="description"
-		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans."
-	/>
+		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans." />
 </svelte:head>
 
 <div class="hero min-h-screen bg-base-100 relative">
 	<TriangleIcon
 		position="left-20 lg:left-48 top-16"
 		kind={TriangleKind.A}
-		delay="animation-delay-2000"
-	/>
+		delay="animation-delay-2000" />
 	<TriangleIcon position="left-10 lg:left-24" />
 	<TriangleIcon position="top-60 lg:top-36" delay="animation-delay-2000" />
 	<TriangleIcon position="right-12 top-32" kind={TriangleKind.A} />
 	<TriangleIcon
 		position="right-24 top-60 lg:top-96"
 		delay="animation-delay-4000"
-		kind={TriangleKind.B}
-	/>
+		kind={TriangleKind.B} />
 	<TriangleIcon position="right-2/3 lg:right-20" delay="animation-delay-2000" />
 
 	<MiniTriangle position="left-1/3 top-1/3" delay="animation-delay-2000" />
@@ -44,17 +41,16 @@
 				src={fanboothLogoLarge}
 				alt="DoKomi Hololive Fan Booth Logo Large"
 				width="1200"
-				height="800"
-			/>
+				height="800" />
 			<h1
-				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
-			>
+				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
 				DoKomi Hololive Fan Booth
 			</h1>
 			<h2 class="text-3xl font-semibold">30.06.2023 - 02.07.2023</h2>
 
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
+			<p class="text-lg font-semibold">Hall 4, Booth 4C15</p>
 
 			<div id="info" class="flex flex-col py-3 space-y-6">
 				<p class="font-bold text-2xl text-primary">Interested? Want to participate?</p>
@@ -62,8 +58,7 @@
 				<a
 					href="/contact"
 					class="btn btn-primary btn-lg rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
-					>Contact Us</a
-				>
+					>Contact Us</a>
 			</div>
 		</div>
 	</div>
@@ -76,7 +71,9 @@
 			<h1 class="mb-5 text-6xl font-bold text-primary">
 				Learn <span class="text-base-100">more</span>
 			</h1>
-			<a class="btn btn-primary btn-lg rounded-full px-12" href="/about">About</a>
+			<a
+				class="btn btn-primary btn-lg rounded-full px-12 hover:scale-105 transition-all"
+				href="/about">About</a>
 		</div>
 	</div>
 </div>
@@ -87,11 +84,7 @@
 	<div class="hero-overlay bg-triangles bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1
-				class="mb-5 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary"
-			>
-				Share
-			</h1>
+			<h1 class="mb-5 text-6xl font-bold text-primary">Share</h1>
 			<TwitterShareButton />
 		</div>
 	</div>
