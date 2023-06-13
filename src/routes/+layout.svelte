@@ -17,7 +17,7 @@
 <MetaTags
 	openGraph={{
 		type: 'website',
-		url: 'https://www.hololivefanbooth.com',
+		url: data.host,
 		title: title + ' for DoKomi 2023',
 		description: description,
 		images: [
