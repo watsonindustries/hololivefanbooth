@@ -5,7 +5,7 @@ import boothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 
 export const prerender = true;
 
-export const load = (async ({ url }) => {
+export const load = (async () => {
 	const thumbnailImgURL = new URL(boothLogoLarge, host).toString();
 
 	return { thumbnailImgURL, host };
