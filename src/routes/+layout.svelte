@@ -36,6 +36,10 @@
 		{
 			property: 'og:image:secure_url',
 			content: data.thumbnailImgURL
+		},
+		{
+			property: 'twitter:image:src',
+			content: data.thumbnailImgURL
 		}
 	]}
 />
