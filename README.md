@@ -24,3 +24,8 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Gotchas
+
+- If you're changing the host (ex. the domain), it's important to change the config file at `src/config.json` to ensure the Open Graph metatags are prerendered with the right source for the embed image.
+  - (If your social media embeds have a blank image or no image at all, this is probably why!)
