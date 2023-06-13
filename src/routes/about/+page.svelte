@@ -1,7 +1,5 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-
-	export let data: PageData;
+	import FanboothDemoImg from '$lib/assets/fanbooth-demo.png';
 </script>
 
 <svelte:head>
@@ -17,9 +15,10 @@
 		<div class="hero-content flex-col lg:flex-row-reverse mx-8">
 			<img
 				width="800"
-				height="900"
-				src="https://3.bp.blogspot.com/-gcSQ76yYaYc/WUoD8m_LkwI/AAAAAAABFHQ/yiu5bvDvnpEpoajXog8IkSIaNGOLUZM_wCLcBGAs/s400/book_doujin_setsuei_man_megane.png"
+				height="1000"
+				src={FanboothDemoImg}
 				class="max-w-xs"
+				alt="Fan Booth Illustration by Pungson Mori"
 			/>
 			<div>
 				<h1 class="text-8xl text-secondary font-bold">About the Fan Booth</h1>
