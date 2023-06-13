@@ -5,6 +5,10 @@
 	import MiniTriangle from '$lib/components/MiniTriangle.svelte';
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
 	import TwitterShareButton from '$lib/components/TwitterShareButton.svelte';
+
+	import { Icon } from '@steeze-ui/svelte-icon';
+	import { MapPin } from '@steeze-ui/heroicons';
+
 	import { TriangleKind } from '../const';
 </script>
 
@@ -31,9 +35,6 @@
 
 	<MiniTriangle position="left-1/3 top-1/3" delay="animation-delay-2000" />
 	<MiniTriangle position="right-1/4 top-1/4" delay="animation-delay-1000" type={2} />
-	<!-- <MiniTriangle position="left-1/3 bottom-1/3" delay="animation-delay-3000" type={4}/>
-	<MiniTriangle position="right-3/4 bottom-1/3" delay="animation-delay-1000" type={3} />
-	<MiniTriangle position="left-3/4 bottom-1/4" delay="animation-delay-3000" type={2} /> -->
 
 	<div class="hero-content text-center">
 		<div class="max-w-lg space-y-3">
@@ -50,7 +51,10 @@
 
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
-			<p class="text-lg font-semibold">Hall 4, Booth 4C15</p>
+			<div class="flex items-center gap-2 justify-center">
+				<Icon src={MapPin} size="20" theme="solid" />
+				<p class="text-lg font-semibold">Hall 4, Booth 4C15</p>
+			</div>
 
 			<div id="info" class="flex flex-col py-3 space-y-6">
 				<p class="font-bold text-2xl text-primary">Interested? Want to participate?</p>
