@@ -1,26 +1,9 @@
-<script>
+<script lang="ts">
 	import { fly, slide } from 'svelte/transition';
 
 	export let open = false;
 
-	const links = [
-		{
-			name: 'Home',
-			href: '/'
-		},
-		{
-			name: 'About',
-			href: '/about'
-		},
-		{
-			name: 'Contact',
-			href: '/contact'
-		},
-		{
-			name: 'Support',
-			href: '/#support'
-		}
-	];
+	export let links: ArrayLike<{ name: string; href: string }>;
 </script>
 
 {#if open}
