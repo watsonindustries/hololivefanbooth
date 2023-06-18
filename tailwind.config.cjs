@@ -6,6 +6,9 @@ const config = {
 			animation: {
 				blob: 'blob 12s infinite'
 			},
+			fontFamily: {
+				geologica: ['geologica', 'sans-serif']
+			},
 			keyframes: {
 				blob: {
 					'0%': {
