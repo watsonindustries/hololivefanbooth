@@ -5,7 +5,7 @@
 
 <div class="hero h-[60vh] sm:h-[80vh] bg-primary w-full bg-sprinkle">
 	<div
-		class="hero-content text-center bg-secondary w-full sm:w-fit p-10 sm:p-32 shadow-2xl shadow-secondary rounded-sm">
+		class="hero-content text-center bg-secondary w-full sm:w-fit px-10 py-12 sm:px-32 shadow-2xl shadow-secondary rounded-sm">
 		<div class="space-y-8">
 			<h1 class="text-8xl font-bold text-base-100">Events</h1>
 			<div class="text-base-100 space-y-6 font-semibold">

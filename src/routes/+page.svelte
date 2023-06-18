@@ -9,7 +9,7 @@
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { MapPin } from '@steeze-ui/heroicons';
 
-	import { TriangleKind } from '../const';
+	import { TriangleKind, hololiveFanBoothDokomiAppURL } from '../const';
 </script>
 
 <svelte:head>
@@ -51,10 +51,12 @@
 
 			<p class="inline-block text-lg">at</p>
 			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
-			<div class="flex items-center gap-2 justify-center">
+			<a
+				class="flex items-center gap-2 justify-center link link-secondary"
+				href={hololiveFanBoothDokomiAppURL}>
 				<Icon src={MapPin} size="20" theme="solid" />
-				<p class="text-lg font-semibold">Hall 4, Booth 4C15</p>
-			</div>
+				<p class="text-lg font-semibold">Hall 4 Booth 4C15</p>
+			</a>
 
 			<div id="info" class="flex flex-col py-3 space-y-6">
 				<p class="font-bold text-2xl text-primary">Interested? Want to participate?</p>
