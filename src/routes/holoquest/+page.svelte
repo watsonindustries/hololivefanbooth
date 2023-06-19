@@ -3,7 +3,7 @@
 
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Apple, Android, Safari, Googlechrome } from '@steeze-ui/simple-icons';
-	import { holoquestURL } from '../../const';
+	import HqOnboarding from '$lib/components/HQOnboarding.svelte';
 </script>
 
 <svelte:head>
@@ -11,18 +11,17 @@
 	<meta name="description" content="HoloQuest app landing page." />
 </svelte:head>
 
-<div class="hero h-96 bg-base-100 bg-sprinkle">
+<div class="hero min-h-screen bg-base-100 bg-sprinkle">
 	<div class="hero-content text-center">
-		<div class="max-w-md">
+		<div class="max-w-xl">
 			<h1
-				class="text-7xl font-bold font-geologica text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
+				class="text-6xl lg:text-8xl font-bold font-geologica text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
 				HoloQuest
 			</h1>
 			<p class="py-6 text-xl font-geologica text-secondary">
 				A live, interactive stamp ralley for Hololive fans.
 			</p>
-			<a class="btn btn-primary rounded-full border-secondary border-2" href={holoquestURL}
-				>Open Holoquest App</a>
+			<HqOnboarding />
 		</div>
 	</div>
 </div>
