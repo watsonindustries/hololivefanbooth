@@ -7,8 +7,6 @@
 
 <a
 	{href}
-	class="btn btn-secondary btn-lg rounded-full px-8 gap-2 border-0 hover:scale-105 transition-all"
->
+	class="btn btn-secondary btn-lg rounded-full px-8 gap-2 border-0 hover:scale-105 transition-all">
 	<Icon src={Kofi} size="24" />
-	Support Us on Ko-Fi</a
->
+	Support Us on Ko-Fi</a>

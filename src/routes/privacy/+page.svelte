@@ -63,8 +63,7 @@
 		<p class="mb-6">
 			You have the right to access, modify, or delete any personal information that we may have
 			collected about you. You can contact us at <a href="mailto:{contactEmail}" class="underline"
-				>{contactEmail}</a
-			> to exercise these rights.
+				>{contactEmail}</a> to exercise these rights.
 		</p>
 
 		<h2 class="text-xl font-bold mb-4">Changes to This Privacy Policy</h2>

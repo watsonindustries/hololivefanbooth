@@ -41,8 +41,7 @@
 			property: 'twitter:image:src',
 			content: data.thumbnailImgURL
 		}
-	]}
-/>
+	]} />
 
 <slot />
 

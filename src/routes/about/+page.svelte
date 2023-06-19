@@ -6,8 +6,7 @@
 	<title>Hololive Fan Booth - About</title>
 	<meta
 		name="description"
-		content="Info about the Hololive Dokomi 2023 fan booth, such as who organizes it, where it is from, what are VTubers etc."
-	/>
+		content="Info about the Hololive Dokomi 2023 fan booth, such as who organizes it, where it is from, what are VTubers etc." />
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
@@ -18,8 +17,7 @@
 				height="1000"
 				src={FanboothDemoImg}
 				class="max-w-xs"
-				alt="Fan Booth Illustration by Pungson Mori"
-			/>
+				alt="Fan Booth Illustration by Pungson Mori" />
 			<div>
 				<h1 class="text-8xl text-secondary font-bold">About the Fan Booth</h1>
 				<p class="py-6 text-base-100 text-2xl font-semibold">
@@ -56,8 +54,7 @@
 				</h1>
 				<p class="py-6 text-2xl text-base-100 font-semibold">
 					<a href="https://hololivepro.com/en/" class="link link-secondary transition-colors"
-						>Hololive Production</a
-					>
+						>Hololive Production</a>
 					is a VTuber agency consisting of hololive and HOLOSTARS. Owned by the Japanese company
 					<a href="https://cover-corp.com" class="link link-secondary transition-colors"
 						>Cover Corporation</a
