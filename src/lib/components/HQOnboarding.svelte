@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import { Icon } from '@steeze-ui/svelte-icon';
-	import { QrCode } from '@steeze-ui/heroicons';
+	import { QrCode, XCircle } from '@steeze-ui/heroicons';
 
 	import { holoquestURL } from '../../const';
 	import Hqqr from './HQQR.svelte';
@@ -39,7 +39,7 @@
 		<div class="modal modal-open">
 			<div class="modal-box space-y-4">
 				<button class="btn btn-square btn-ghost absolute right-2 top-2" on:click={closeDialog}
-					>✕</button>
+					><Icon src={XCircle} size=24></Icon></button>
 				<h2 class="text-xl text-primary font-geologica font-bold">Get the HoloQuest app</h2>
 				<p class="font-geologica">Scan the QR code with your smartphone</p>
 				<Hqqr />

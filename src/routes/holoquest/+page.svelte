@@ -4,6 +4,9 @@
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Apple, Android, Safari, Googlechrome } from '@steeze-ui/simple-icons';
 	import HqOnboarding from '$lib/components/HQOnboarding.svelte';
+
+	import stampSheetDemo from '$lib/assets/stamp-sheet-iphone-demo.png';
+	import leaderboardDemo from '$lib/assets/leaderboard-iphone-demo.png';
 </script>
 
 <svelte:head>
@@ -29,14 +32,7 @@
 <div class="hero min-h-screen bg-gradient-to-br from-primary to-secondary">
 	<div class="hero-content flex-col space-y-4 lg:flex-row lg:space-x-4 mx-4">
 		<!-- Mockup -->
-		<div class="mockup-phone border-primary min-w-fit shadow-xl">
-			<div class="camera" />
-			<div class="display">
-				<div class="artboard artboard-demo phone-1">
-					<img src={iPhoneMockup} alt="HoloQuest App Screenshot" class="w-full h-full" />
-				</div>
-			</div>
-		</div>
+		<img src={stampSheetDemo} />
 
 		<div>
 			<h1 class="text-6xl text-primary font-bold font-geologica">Collect stamps on your phone!</h1>
@@ -48,7 +44,7 @@
 	</div>
 </div>
 
-<div class="hero h-[60vh] bg-base-100">
+<div class="hero min-h-screen bg-base-100">
 	<div class="hero-content flex-col space-y-4 lg:flex-row lg:space-x-4 mx-4">
 		<div>
 			<h1 class="text-6xl text-primary font-bold font-geologica">Enjoy the quest together</h1>
@@ -56,9 +52,9 @@
 				See other's progress in the live leaderboard. Get live updates from other hunters.
 			</p>
 		</div>
+		
+		<img src={leaderboardDemo} alt="Your Image" class="w-full h-full object-cover" />
 
-		<img />
-		(img will go here)
 	</div>
 </div>
 
