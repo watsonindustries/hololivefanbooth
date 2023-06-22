@@ -1,5 +1,6 @@
 <script lang="ts">
-	import iPhoneMockup from '$lib/assets/iPhone-demo-screenshot.jpeg';
+	import type {PageData} from './$types';
+	import { MetaTags } from 'svelte-meta-tags';
 
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Apple, Android, Safari, Googlechrome } from '@steeze-ui/simple-icons';
@@ -7,12 +8,39 @@
 
 	import stampSheetDemo from '$lib/assets/stamp-sheet-iphone-demo.png';
 	import leaderboardDemo from '$lib/assets/leaderboard-iphone-demo.png';
+	import holoquestTwitterCard from '$lib/assets/holoquest-twitter-card.png';
+
+	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Hololive Fan Booth - HoloQuest</title>
-	<meta name="description" content="HoloQuest app landing page." />
-</svelte:head>
+<MetaTags
+openGraph={{
+	type: 'website',
+	url: data.host,
+	title: 'Hololive Fan Booth - HoloQuest',
+	description: 'HoloQuest - A fan stamp rally for DoKomi 2023',
+	images: [
+		{
+			url: new URL(holoquestTwitterCard, data.host).toString(),
+			width: 660,
+			height: 320,
+			alt: 'HoloQuest app'
+		}
+	]
+}}
+twitter={{
+	cardType: 'summary_large_image'
+}}
+additionalMetaTags={[
+	{
+		property: 'og:image:secure_url',
+		content: new URL(holoquestTwitterCard, data.host).toString()
+	},
+	{
+		property: 'twitter:image:src',
+		content: new URL(holoquestTwitterCard, data.host).toString()
+	}
+]} />
 
 <div class="hero min-h-screen bg-base-100 bg-sprinkle">
 	<div class="hero-content text-center">

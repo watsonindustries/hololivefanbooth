@@ -1,4 +1,8 @@
 <script lang="ts">
+	import type {PageData} from './$types';
+
+	import { MetaTags } from 'svelte-meta-tags';
+
 	import fanboothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 	import Events from '$lib/components/Events.svelte';
 	import KofiButton from '$lib/components/KofiButton.svelte';
@@ -10,14 +14,38 @@
 	import { MapPin } from '@steeze-ui/heroicons';
 
 	import { TriangleKind, hololiveFanBoothDokomiAppURL } from '../const';
+
+	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Hololive Fan Booth - Home</title>
-	<meta
-		name="description"
-		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans." />
-</svelte:head>
+<MetaTags
+	openGraph={{
+		type: 'website',
+		url: data.host,
+		title: 'Hololive Fan Booth - Home',
+		description: 'Hololive Dokomi 2023 fan booth - made by fans, for fans.',
+		images: [
+			{
+				url: data.thumbnailImgURL,
+				width: 1200,
+				height: 800,
+				alt: 'Hololive Fan Booth'
+			}
+		]
+	}}
+	twitter={{
+		cardType: 'summary_large_image'
+	}}
+	additionalMetaTags={[
+		{
+			property: 'og:image:secure_url',
+			content: data.thumbnailImgURL
+		},
+		{
+			property: 'twitter:image:src',
+			content: data.thumbnailImgURL
+		}
+	]} />
 
 <div class="hero min-h-screen bg-base-100 relative">
 	<TriangleIcon
