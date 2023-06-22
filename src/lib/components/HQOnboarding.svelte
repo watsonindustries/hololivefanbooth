@@ -15,7 +15,11 @@
 	function closeDialog() {
 		showDialog = false;
 	}
+
+	const hqRevealed = false; // TODO: Set to true on reveal day
 </script>
+
+{#if hqRevealed}
 
 <div class="block sm:hidden">
 	<!-- visible on small (mobile) screens and hidden on larger screens -->
@@ -29,6 +33,8 @@
 		<Icon src={QrCode} size="24px" />
 		Get holoquest app</button>
 </div>
+	
+{/if}
 
 <!-- Modal -->
 {#if showDialog}
