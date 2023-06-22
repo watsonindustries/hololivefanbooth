@@ -80,7 +80,7 @@ additionalMetaTags={[
 			</p>
 		</div>
 
-		<img src={leaderboardDemo} alt="Mockup of the leaderboard feature." class="md:max-w-md" />
+		<img src={leaderboardDemo} alt="Mockup of the leaderboard feature." class="md:max-w-md opacity-gradient-tb" />
 	</div>
 </div>
 
