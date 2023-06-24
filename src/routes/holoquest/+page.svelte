@@ -110,6 +110,9 @@ additionalMetaTags={[
 						>contact the booth staff</a
 					>.
 				</p>
+				<p>
+					Prizes are limited and while supplies last.
+				</p>
 			</div>
 		</div>
 	</div>

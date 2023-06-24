@@ -12,7 +12,10 @@
 			handle: '@Dominik_KFBeats'
 		},
 		{
-			handle: '@vrontis'
+			handle: '@vrontisdev'
+		},
+		{
+			handle: '@wesley'
 		}
 	];
 </script>

@@ -20,6 +20,14 @@
 		{
 			name: 'Support',
 			href: '/#support'
+		},
+		{
+			name: 'HoloQuest',
+			href: '/holoquest'
+		},
+		{
+			name: 'Credits',
+			href: '/credits'
 		}
 	];
 </script>

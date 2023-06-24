@@ -4,12 +4,18 @@
 		{ name: 'Vrontis', role: 'Fan Booth Organizer', link: 'https://vrontis.dev' },
 		{ name: 'Pungson Mori', role: 'Illustrator', link: 'https://twitter.com/333aalloonnHD' },
 		{ name: 'SpiritSnare', role: 'Designer', link: 'https://twitter.com/Spiritsnare' },
-		{ name: 'CenTdemeern1', role: 'Web Development', link: 'https://linktr.ee/centdemeern1' },
 		{
 			name: 'DaniruKun',
 			role: 'Web and HoloQuest App Development',
 			link: 'https://twitter.com/DaniruKun'
-		}
+		},
+		{ name: 'CenTdemeern1', role: 'Web Development', link: 'https://linktr.ee/centdemeern1' },
+		{
+			name: 'Wesley',
+			role: 'Project Management',
+			link: '#'
+		},
+		{ name: 'Elmi', role: 'Graphic Design and Art', link: 'https://twitter.com/Elmi39Project' }
 	];
 </script>
 

@@ -33,7 +33,10 @@
 		<Icon src={QrCode} size="24px" />
 		Get holoquest app</button>
 </div>
-	
+{:else}
+<p class="text-xl text-secondary font-geologica">
+	Available <b>soon!</b> Check here for updates.
+</p>
 {/if}
 
 <!-- Modal -->
