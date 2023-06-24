@@ -22,8 +22,8 @@ openGraph={{
 	images: [
 		{
 			url: new URL(holoquestTwitterCard, data.host).toString(),
-			width: 660,
-			height: 320,
+			width: 700,
+			height: 466,
 			alt: 'HoloQuest app'
 		}
 	]
