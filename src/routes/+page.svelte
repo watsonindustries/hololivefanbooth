@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type {PageData} from './$types';
+	import type { PageData } from './$types';
 
 	import { MetaTags } from 'svelte-meta-tags';
 
@@ -130,7 +130,7 @@
 			<h1 class="mb-5 text-6xl font-bold text-secondary">
 				Support <span class="text-base-100">us</span>
 			</h1>
-			<p class="text-2xl font-semibold">
+			<p class="text-2xl font-semibold text-base-100">
 				With your support, we plan to create flyers, delightful postcards, and more!
 			</p>
 			<KofiButton />
