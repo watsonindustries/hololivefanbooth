@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type {PageData} from './$types';
+	import type { PageData } from './$types';
 	import { MetaTags } from 'svelte-meta-tags';
 
 	import { Icon } from '@steeze-ui/svelte-icon';
@@ -13,34 +13,39 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - HoloQuest</title>
+	<meta name="description" content="HoloQuest app landing page." />
+</svelte:head>
+
 <MetaTags
-openGraph={{
-	type: 'website',
-	url: data.host,
-	title: 'Hololive Fan Booth - HoloQuest',
-	description: 'HoloQuest - A fan stamp rally for DoKomi 2023',
-	images: [
+	openGraph={{
+		type: 'website',
+		url: data.host,
+		title: 'Hololive Fan Booth - HoloQuest',
+		description: 'HoloQuest - A fan stamp rally for DoKomi 2023',
+		images: [
+			{
+				url: new URL(holoquestTwitterCard, data.host).toString(),
+				width: 700,
+				height: 466,
+				alt: 'HoloQuest app'
+			}
+		]
+	}}
+	twitter={{
+		cardType: 'summary_large_image'
+	}}
+	additionalMetaTags={[
 		{
-			url: new URL(holoquestTwitterCard, data.host).toString(),
-			width: 700,
-			height: 466,
-			alt: 'HoloQuest app'
+			property: 'og:image:secure_url',
+			content: new URL(holoquestTwitterCard, data.host).toString()
+		},
+		{
+			property: 'twitter:image:src',
+			content: new URL(holoquestTwitterCard, data.host).toString()
 		}
-	]
-}}
-twitter={{
-	cardType: 'summary_large_image'
-}}
-additionalMetaTags={[
-	{
-		property: 'og:image:secure_url',
-		content: new URL(holoquestTwitterCard, data.host).toString()
-	},
-	{
-		property: 'twitter:image:src',
-		content: new URL(holoquestTwitterCard, data.host).toString()
-	}
-]} />
+	]} />
 
 <div class="hero min-h-screen bg-base-100 bg-sprinkle">
 	<div class="hero-content text-center">
@@ -80,7 +85,10 @@ additionalMetaTags={[
 			</p>
 		</div>
 
-		<img src={leaderboardDemo} alt="Mockup of the leaderboard feature." class="md:max-w-md opacity-gradient-tb" />
+		<img
+			src={leaderboardDemo}
+			alt="Mockup of the leaderboard feature."
+			class="md:max-w-md opacity-gradient-tb" />
 	</div>
 </div>
 
@@ -110,9 +118,7 @@ additionalMetaTags={[
 						>contact the booth staff</a
 					>.
 				</p>
-				<p>
-					Prizes are limited and while supplies last.
-				</p>
+				<p>Prizes are limited and while supplies last.</p>
 			</div>
 		</div>
 	</div>

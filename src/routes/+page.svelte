@@ -18,6 +18,13 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Hololive Fan Booth - Home</title>
+	<meta
+		name="description"
+		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans." />
+</svelte:head>
+
 <MetaTags
 	openGraph={{
 		type: 'website',
