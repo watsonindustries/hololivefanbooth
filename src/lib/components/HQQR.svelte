@@ -6,7 +6,7 @@
 </script>
 
 <svg
-	class="Qr-item-svg"
+	class="Qr-item-svg bg-white rounded-xl"
 	width="100%"
 	height="100%"
 	viewBox="-7.4 -7.4 51.8 51.8"
