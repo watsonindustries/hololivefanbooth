@@ -16,7 +16,7 @@
 		showDialog = false;
 	}
 
-	const hqRevealed = false; // TODO: Set to true on reveal day
+	const hqRevealed = true;
 </script>
 
 {#if hqRevealed}
