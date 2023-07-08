@@ -72,7 +72,7 @@
 	<MiniTriangle position="right-1/4 top-1/4" delay="animation-delay-1000" type={2} />
 
 	<div class="hero-content text-center">
-		<div class="max-w-lg space-y-3">
+		<div class="max-w-lg space-y-4">
 			<img
 				src={fanboothLogoLarge}
 				alt="DoKomi Hololive Fan Booth Logo Large"
@@ -83,24 +83,7 @@
 				DoKomi Hololive Fan Booth
 			</h1>
 			<h2 class="text-3xl font-semibold">30.06.2023 - 02.07.2023</h2>
-
-			<p class="inline-block text-lg">at</p>
-			<p class="inline-block text-xl">Düsseldorf Congress Center South</p>
-			<a
-				class="flex items-center gap-2 justify-center link link-secondary"
-				href={hololiveFanBoothDokomiAppURL}>
-				<Icon src={MapPin} size="20" theme="solid" />
-				<p class="text-lg font-semibold">Hall 4 Booth 4C15</p>
-			</a>
-
-			<div id="info" class="flex flex-col py-3 space-y-6">
-				<p class="font-bold text-2xl text-primary">Interested? Want to participate?</p>
-
-				<a
-					href="/contact"
-					class="btn btn-primary btn-lg rounded-full max-w-xs mx-auto hover:border-secondary hover:scale-110 transition"
-					>Contact Us</a>
-			</div>
+            <p class="text-6xl">Thank you for participating! See you next year!</p>
 		</div>
 	</div>
 </div>
