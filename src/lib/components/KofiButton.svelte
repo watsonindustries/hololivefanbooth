@@ -2,7 +2,7 @@
 	import { Kofi } from '@steeze-ui/simple-icons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 
-	export let href = 'https://ko-fi.com/dominik_k/goal?g=37';
+	export let href = 'https://ko-fi.com/dominik_k/';
 </script>
 
 <a

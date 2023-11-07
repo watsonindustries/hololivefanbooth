@@ -21,8 +21,7 @@
 		text-align: center;
 		font-size: 1.5em;
 		letter-spacing: 0.15em;
-		padding: 1em;
-		padding-top: 0;
+		padding: 0 1em 1em;
 		color: #73dcff;
 	}
 	p {

@@ -21,7 +21,7 @@
 			<div>
 				<h1 class="text-8xl text-secondary font-bold">About the Fan Booth</h1>
 				<p class="py-6 text-base-100 text-2xl font-semibold">
-					The unofficial Fan Booth is a project organised for the second year in a row at <a
+					The unofficial Fan Booth is a project organised for the third year in a row at <a
 						href="https://www.dokomi.de/en"
 						class="link link-secondary transition-colors">DoKomi</a
 					>, Germany's biggest Anime and Japan Expo.

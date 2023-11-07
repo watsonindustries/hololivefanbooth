@@ -23,7 +23,7 @@
 		type: 'website',
 		url: data.host,
 		title: 'Hololive Fan Booth - HoloQuest',
-		description: 'HoloQuest - A fan stamp rally for DoKomi 2023',
+		description: 'HoloQuest - A fan stamp rally for DoKomi 2024',
 		images: [
 			{
 				url: new URL(holoquestTwitterCard, data.host).toString(),
@@ -57,14 +57,17 @@
 			<p class="py-6 text-xl font-geologica text-secondary">
 				A live, interactive stamp ralley for Hololive fans.
 			</p>
-			<HqOnboarding />
+			<p class="py-6 text-xl font-geologica text-secondary">
+				Will be updated close to convention start!
+			</p>
+			<!--<HqOnboarding />-->
 		</div>
 	</div>
 </div>
-
+<!--
 <div class="hero min-h-screen bg-gradient-to-br from-primary to-secondary">
 	<div class="hero-content flex-col space-y-4 lg:flex-row lg:space-x-4 mx-4">
-		<!-- Mockup -->
+		< !-- Mockup -- >
 		<img src={stampSheetDemo} class="md:max-w-md" alt="Mockup of the stamp sheet in the app." />
 
 		<div>
@@ -123,3 +126,4 @@
 		</div>
 	</div>
 </div>
+-->

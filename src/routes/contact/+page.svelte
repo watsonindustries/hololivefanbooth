@@ -22,7 +22,7 @@
 
 <svelte:head>
 	<title>Hololive Fan Booth - Contact</title>
-	<meta name="description" content="Contact the Hololive Dokomi 2023 fan booth organizers." />
+	<meta name="description" content="Contact the Hololive Dokomi 2024 fan booth organizers." />
 </svelte:head>
 
 <div class="bg-shapes bg-secondary">
