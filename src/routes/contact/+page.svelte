@@ -15,7 +15,7 @@
 			handle: '@vrontisdev'
 		},
 		{
-			handle: '@wesley'
+			handle: '@wesleydm1999'
 		}
 	];
 </script>

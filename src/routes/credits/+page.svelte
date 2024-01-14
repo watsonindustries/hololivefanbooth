@@ -13,7 +13,7 @@
 		{
 			name: 'Wesleydm1999',
 			role: 'Project Management',
-			link: '#'
+			link: 'https://x.com/wesleydm1999'
 		},
 		{ name: 'Elmi', role: 'Graphic Design and Art', link: 'https://twitter.com/Elmi39Project' }
 	];
