@@ -10,10 +10,7 @@
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
 	import TwitterShareButton from '$lib/components/TwitterShareButton.svelte';
 
-	import { Icon } from '@steeze-ui/svelte-icon';
-	import { MapPin } from '@steeze-ui/heroicons';
-
-	import { TriangleKind, hololiveFanBoothDokomiAppURL } from '../const';
+	import { TriangleKind } from '../const';
 
 	export let data: PageData;
 </script>
