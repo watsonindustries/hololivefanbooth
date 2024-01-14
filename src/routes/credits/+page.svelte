@@ -11,7 +11,7 @@
 		},
 		{ name: 'CenTdemeern1', role: 'Web Development', link: 'https://linktr.ee/centdemeern1' },
 		{
-			name: 'Wesley',
+			name: 'Wesleydm1999',
 			role: 'Project Management',
 			link: '#'
 		},
