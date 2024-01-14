@@ -10,7 +10,7 @@
 	<div class="font-sans tracking-tighter" transition:slide={{ duration: 1000 }}>
 		{#each links as link, i}
 			<p transition:fly={{ y: -15, delay: 50 * i }}>
-				<a href={link.href} class="link link-secondary transition-colors">{link.name}</a>
+				<a href={link.href} class="link link-secondary transition-colors" on:click={() => open = false}>{link.name}</a>
 			</p>
 		{/each}
 	</div>
