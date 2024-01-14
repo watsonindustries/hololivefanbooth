@@ -79,8 +79,8 @@
 				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
 				DoKomi Hololive Fan Booth
 			</h1>
-			<h2 class="text-3xl font-semibold">30.06.2023 - 02.07.2023</h2>
-            <p class="text-6xl">Thank you for participating! See you next year!</p>
+			<h2 class="text-3xl font-semibold">28.06.2024 - 30.06.2024</h2>
+            <p class="text-6xl">Planning and funding started!</p>
 		</div>
 	</div>
 </div>
@@ -118,7 +118,7 @@
 				Support <span class="text-base-100">us</span>
 			</h1>
 			<p class="text-2xl font-semibold text-base-100">
-				With your support, we plan to create flyers, delightful postcards, and more!
+				With your support, we plan to create a meeting spot for fans, an artist rally, posters, flyers, postcards, and more!
 			</p>
 			<KofiButton />
 		</div>
