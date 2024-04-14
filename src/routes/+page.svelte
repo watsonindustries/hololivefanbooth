@@ -76,10 +76,10 @@
 				width="1200"
 				height="800" />
 			<h1
-				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
+				class="text-6xl font-bold font-geologica text-transparent tracking-tight bg-clip-text bg-gradient-to-br from-primary to-secondary">
 				DoKomi Hololive Fan Booth
 			</h1>
-			<h2 class="text-2xl font-light">28.06.2024 - 30.06.2024</h2>
+			<h2 class="text-2xl font-light font-geologica">28.06.2024 - 30.06.2024</h2>
 			<p class="text-4xl font-geologica">Planning and funding are progressing!</p>
 		</div>
 	</div>
@@ -89,11 +89,11 @@
 	<div class="hero-overlay bg-triangles bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold text-primary">
+			<h1 class="mb-5 text-6xl font-bold font-geologica text-primary tracking-tight">
 				Learn <span class="text-base-100">more</span>
 			</h1>
 			<a
-				class="btn btn-primary btn-lg rounded-full px-12 hover:scale-105 transition-all"
+				class="btn btn-primary btn-lg rounded-full px-12 hover:scale-105 transition-all font-geologica"
 				href="/about">About</a>
 		</div>
 	</div>
@@ -101,20 +101,20 @@
 
 <Events />
 
-<div class="hero h-72 bg-secondary">
+<div class="hero h-72 bg-secondary" id="share">
 	<div class="hero-overlay bg-triangles bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica">Share</h1>
+			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica tracking-tight">Share</h1>
 			<TwitterShareButton />
 		</div>
 	</div>
 </div>
 
-<div class="hero h-80 bg-primary bg-sprinkle" id="support">
+<div class="hero h-90 bg-primary bg-sprinkle" id="support">
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-6">
-			<h1 class="mb-5 text-6xl font-bold font-geologica text-secondary">
+			<h1 class="mb-5 text-6xl font-bold font-geologica tracking-tight text-secondary">
 				Support <span class="text-base-100">us</span>
 			</h1>
 			<p class="text-2xl font-semibold text-base-100 font-geologica">
