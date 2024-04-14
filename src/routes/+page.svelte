@@ -79,8 +79,8 @@
 				class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
 				DoKomi Hololive Fan Booth
 			</h1>
-			<h2 class="text-3xl font-semibold">28.06.2024 - 30.06.2024</h2>
-            <p class="text-6xl">Planning and funding started!</p>
+			<h2 class="text-2xl font-light">28.06.2024 - 30.06.2024</h2>
+			<p class="text-4xl font-geologica">Planning and funding are progressing!</p>
 		</div>
 	</div>
 </div>
@@ -105,7 +105,7 @@
 	<div class="hero-overlay bg-triangles bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold text-primary">Share</h1>
+			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica">Share</h1>
 			<TwitterShareButton />
 		</div>
 	</div>
@@ -114,11 +114,12 @@
 <div class="hero h-80 bg-primary bg-sprinkle" id="support">
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-6">
-			<h1 class="mb-5 text-6xl font-bold text-secondary">
+			<h1 class="mb-5 text-6xl font-bold font-geologica text-secondary">
 				Support <span class="text-base-100">us</span>
 			</h1>
-			<p class="text-2xl font-semibold text-base-100">
-				With your support, we plan to create a meeting spot for fans, an artist rally, posters, flyers, postcards, and more!
+			<p class="text-2xl font-semibold text-base-100 font-geologica">
+				With your support, we plan to create a meeting spot for fans, an artist rally, posters,
+				flyers, postcards, and more!
 			</p>
 			<KofiButton />
 		</div>
