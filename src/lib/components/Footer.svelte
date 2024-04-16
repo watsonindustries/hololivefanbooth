@@ -21,18 +21,15 @@
 
 <footer class="footer footer-center p-4 bg-base-100 text-base-content my-8 font-geologica">
 	<div class="space-y-8">
-		<p class="text-lg" id="footer-links">
-			{#each links as link, i}
-				<a
-					href={link.href}
-					class="mt-2 font-medium link link-secondary link-hover transition duration-400 ease-in-out"
-					>{link.name}</a>
-
-				{#if i < links.length - 1}
-					<span class="text-neutral-500 mx-2">|</span>
-				{/if}
+		
+		<div class="text-lg divide-x-2 divide-slate-500 grid grid-cols-4" id="footer-links">
+			{#each links as link}
+					<a
+						href={link.href}
+						class="font-medium link link-secondary link-hover transition duration-400 text-center ease-in-out px-6"
+						>{link.name}</a>
 			{/each}
-		</p>
+		</div>
 
 		<p id="copyright">
 			Copyright © 2023 - Powered by

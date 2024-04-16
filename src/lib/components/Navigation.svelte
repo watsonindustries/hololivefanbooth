@@ -14,11 +14,11 @@
 			href: '/about'
 		},
 		{
-			name: 'Contact',
+			name: 'Contact Us',
 			href: '/contact'
 		},
 		{
-			name: 'Support',
+			name: 'Support Us',
 			href: '/#support'
 		},
 		{

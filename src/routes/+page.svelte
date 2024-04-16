@@ -69,7 +69,7 @@
 	<MiniTriangle position="right-1/4 top-1/4" delay="animation-delay-1000" type={2} />
 
 	<div class="hero-content text-center">
-		<div class="max-w-lg space-y-4">
+		<div class="max-w-lg space-y-6">
 			<img
 				src={fanboothLogoLarge}
 				alt="DoKomi Hololive Fan Booth Logo Large"
@@ -81,6 +81,7 @@
 			</h1>
 			<h2 class="text-2xl font-light font-geologica">28.06.2024 - 30.06.2024</h2>
 			<p class="text-4xl font-geologica">Planning and funding are progressing!</p>
+			<a href="#support" class="btn btn-primary btn rounded-full px-12 hover:scale-105 transition-all font-geologica">Support Us</a>
 		</div>
 	</div>
 </div>
