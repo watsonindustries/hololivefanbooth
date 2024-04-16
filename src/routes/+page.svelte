@@ -10,7 +10,7 @@
 	import TriangleIcon from '$lib/components/TriangleIcon.svelte';
 	import TwitterShareButton from '$lib/components/TwitterShareButton.svelte';
 
-	import { TriangleKind } from '../const';
+	import { TriangleKind, officialBoothXURL, twitterIntentURL } from '../const';
 
 	export let data: PageData;
 </script>
@@ -81,7 +81,10 @@
 			</h1>
 			<h2 class="text-2xl font-light font-geologica">28.06.2024 - 30.06.2024</h2>
 			<p class="text-4xl font-geologica">Planning and funding are progressing!</p>
-			<a href="#support" class="btn btn-primary btn rounded-full px-12 hover:scale-105 transition-all font-geologica">Support Us</a>
+			<a
+				href="#support"
+				class="btn btn-primary rounded-full px-12 hover:scale-105 transition-all font-geologica"
+				>Support Us</a>
 		</div>
 	</div>
 </div>
@@ -107,7 +110,7 @@
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
 			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica tracking-tight">Share</h1>
-			<TwitterShareButton />
+			<TwitterShareButton url={twitterIntentURL} />
 		</div>
 	</div>
 </div>
@@ -123,6 +126,18 @@
 				flyers, postcards, and more!
 			</p>
 			<KofiButton />
+		</div>
+	</div>
+</div>
+
+<div class="hero h-72 bg-secondary" id="share">
+	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="hero-content text-center text-neutral-content">
+		<div class="max-w-md space-y-4">
+			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica tracking-tight">
+				Follow us for updates
+			</h1>
+			<a class="btn btn-lg btn-circle font-mono text-4xl font-bold" href={officialBoothXURL}>𝕏</a>
 		</div>
 	</div>
 </div>
