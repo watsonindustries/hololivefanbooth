@@ -29,19 +29,19 @@
 	<div class="hero min-h-screen backdrop-blur-sm">
 		<div
 			class="hero-content flex-col lg:flex-row-reverse bg-primary w-full sm:w-fit rounded-sm shadow-primary">
-			<div class="space-y-8 py-10 sm:p-40 flex flex-col">
-				<h1 class="text-8xl text-center font-bold text-secondary">Contact us!</h1>
+			<div class="space-y-8 py-10 sm:p-40 flex flex-col font-geologica">
+				<h1 class="text-8xl text-center font-bold text-secondary tracking-tighter">Contact us!</h1>
 				<a
 					href={contactFormURL}
-					class="btn btn-secondary btn-lg btn-outline max-w-xs mx-auto rounded-full transition duration-500">
+					class="btn btn-secondary btn-lg btn-outline max-w-xs mx-auto rounded-full transition duration-500 tracking-wide">
 					General Inquiries
 				</a>
 				<a
 					href="mailto:{contactEmail}"
-					class="btn btn-secondary btn-lg btn-outline max-w-xs mx-auto rounded-full transition duration-500">
+					class="btn btn-secondary btn-lg btn-outline max-w-xs mx-auto rounded-full transition duration-500 tracking-wide">
 					Collaboration
 				</a>
-				<h2 class="text-6xl text-center font-bold text-secondary">Staff</h2>
+				<h2 class="text-6xl text-center font-bold text-secondary tracking-tight">Staff</h2>
 				<div class="mx-auto space-y-2">
 					{#each staffTwitter as { handle }}
 						<a

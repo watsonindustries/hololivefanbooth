@@ -1,9 +1,5 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-
-	const contactEmail = 'hololivefanbooth@gmail.com';
-
-	export let data: PageData;
+	import { contactEmail } from '../../const';
 </script>
 
 <svelte:head>
@@ -11,7 +7,7 @@
 </svelte:head>
 
 <template>
-	<div class="bg-white py-10 px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32">
+	<div class="py-10 px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 font-geologica">
 		<h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
 
 		<div class="mb-8">

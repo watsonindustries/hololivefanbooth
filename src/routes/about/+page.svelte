@@ -11,7 +11,7 @@
 
 <div class="bg-triangles bg-primary bg-fixed">
 	<div class="hero h-[screen] sm:h-[75vh]">
-		<div class="hero-content flex-col lg:flex-row-reverse mx-8">
+		<div class="hero-content flex-col lg:flex-row-reverse mx-8 font-geologica">
 			<img
 				width="800"
 				height="1000"
@@ -19,7 +19,7 @@
 				class="max-w-xs"
 				alt="Fan Booth Illustration by Pungson Mori" />
 			<div>
-				<h1 class="text-8xl text-secondary font-bold">About the Fan Booth</h1>
+				<h1 class="text-8xl text-secondary font-bold tracking-tighter">About the Fan Booth</h1>
 				<p class="py-6 text-base-100 text-2xl font-semibold">
 					The unofficial Fan Booth is a project organised for the third year in a row at <a
 						href="https://www.dokomi.de/en"
@@ -32,8 +32,8 @@
 
 	<div class="hero h-[70vh] sm:h-[40vh] bg-secondary">
 		<div class="hero-content flex-col lg:flex-row-reverse">
-			<div class="space-y-4 mx-8">
-				<h1 class="text-6xl text-primary text-center font-bold">What are VTubers?</h1>
+			<div class="space-y-4 mx-8 font-geologica">
+				<h1 class="text-6xl text-primary text-center font-bold tracking-tight">What are VTubers?</h1>
 				<p class="py-6 text-2xl text-base-100 font-semibold">
 					<a
 						href="https://virtualyoutuber.fandom.com/wiki/VTuber"
@@ -48,8 +48,8 @@
 
 	<div class="hero h-[70vh] sm:h-[40vh] bg-transparent">
 		<div class="hero-content flex-col lg:flex-row-reverse">
-			<div class="space-y-4 mx-8">
-				<h1 class="text-6xl text-base-100 text-center font-bold">
+			<div class="space-y-4 mx-8 font-geologica">
+				<h1 class="text-6xl text-base-100 text-center font-bold tracking-tight">
 					What is <span class="text-secondary underline">hololive</span>?
 				</h1>
 				<p class="py-6 text-2xl text-base-100 font-semibold">

@@ -5,7 +5,7 @@
 		{ name: 'Pungson Mori', role: 'Illustrator', link: 'https://twitter.com/333aalloonnHD' },
 		{ name: 'SpiritSnare', role: 'Designer', link: 'https://twitter.com/Spiritsnare' },
 		{
-			name: 'DaniruKun',
+			name: 'danirukun',
 			role: 'Web and HoloQuest App Development',
 			link: 'https://twitter.com/DaniruKun'
 		},
@@ -17,6 +17,8 @@
 		},
 		{ name: 'Elmi', role: 'Graphic Design and Art', link: 'https://twitter.com/Elmi39Project' }
 	];
+
+	const creditsGrouped = credits.map(({ name, link, role }) => [{ name, link }, { role }]).flat();
 </script>
 
 <svelte:head>
@@ -24,18 +26,26 @@
 	<meta name="description" content="Credits to people that helped with the booth." />
 </svelte:head>
 
-<h1 class="text-7xl text-primary font-bold text-center my-6">Credits</h1>
+<h1 class="text-7xl text-primary font-bold text-center my-6 font-geologica tracking-tighter">
+	Credits
+</h1>
 
-<div class="space-y-4">
-	{#each credits as { name, role, link }}
-		<div class="flex flex-col items-center justify-center space-y-2">
-			<a
-				href={link}
-				class="text-2xl font-semibold text-primary transition-colors hover:text-primary-focus"
-				>{name}</a>
-			<p class="font-semibold text-secondary">{role}</p>
-		</div>
-	{/each}
+<div class="space-y-4 font-geologica">
+	<div class="grid grid-cols-2 gap-4">
+		{#each creditsGrouped as credit}
+			<div class="flex flex-row text-xl space-x-4">
+				{#if credit.name}
+					<a
+						href={credit.link}
+						class="text-primary transition-colors hover:text-primary-focus ml-auto">
+						{credit.name}
+					</a>
+				{:else if credit.role}
+					<p class="text-secondary text-left">{credit.role}</p>
+				{/if}
+			</div>
+		{/each}
+	</div>
 	<br />
 	<p class="text-2xl font-semibold text-primary text-center">...and many others!</p>
 </div>
