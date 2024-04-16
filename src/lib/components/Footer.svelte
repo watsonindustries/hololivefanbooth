@@ -19,15 +19,14 @@
 	];
 </script>
 
-<footer class="footer footer-center p-4 bg-base-100 text-base-content my-8 font-geologica">
+<footer class="footer footer-center my-8 bg-base-100 p-4 font-geologica text-base-content">
 	<div class="space-y-8">
-		
-		<div class="text-lg divide-x-2 divide-slate-500 grid grid-cols-4" id="footer-links">
+		<div class="grid grid-cols-4 divide-x-2 divide-slate-500 text-lg" id="footer-links">
 			{#each links as link}
-					<a
-						href={link.href}
-						class="font-medium link link-secondary link-hover transition duration-400 text-center ease-in-out px-6"
-						>{link.name}</a>
+				<a
+					href={link.href}
+					class="duration-400 link link-hover link-secondary px-6 text-center font-medium transition ease-in-out"
+					>{link.name}</a>
 			{/each}
 		</div>
 

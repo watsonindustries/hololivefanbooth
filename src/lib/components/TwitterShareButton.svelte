@@ -3,7 +3,7 @@
 </script>
 
 <a
-	class="btn hover:scale-105 btn-lg rounded-full gap-2 text-2xl font-bold font-geologica border-0"
+	class="btn btn-lg gap-2 rounded-full border-0 font-geologica text-2xl font-bold hover:scale-105"
 	href={url}>
 	<span class="font-bold">𝕏</span> #hololivefanbooth
 </a>

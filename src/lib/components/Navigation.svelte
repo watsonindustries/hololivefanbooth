@@ -38,8 +38,9 @@
 	<Hamburger bind:open --color="#73dcff" />
 </div>
 
-<div class="hidden md:flex justify-start space-x-4 align-middle">
-	<ul class="menu menu-horizontal px-1 text-secondary font-semibold font-geologica dark:text-primary mx-auto">
+<div class="hidden justify-start space-x-4 align-middle md:flex">
+	<ul
+		class="menu menu-horizontal mx-auto px-1 font-geologica font-semibold text-secondary dark:text-primary">
 		{#each links as link}
 			<li><a href={link.href} class="hover:text-primary-focus">{link.name}</a></li>
 		{/each}

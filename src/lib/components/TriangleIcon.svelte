@@ -7,9 +7,9 @@
 </script>
 
 <div
-	class="absolute filter blur-md will-change-transform animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
+	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
 	{#if kind == TriangleKind.A}
-		<svg class="w-32 h-32" viewBox="0 0 3832 3861"
+		<svg class="h-32 w-32" viewBox="0 0 3832 3861"
 			><path
 				d="m.062-.467.875-.012a.062.062 0 0 1 .055.093l-.45.812A.062.062 0 0 1 .433.425l-.426-.8a.076.076 0 0 1-.006-.02.062.062 0 0 1 .061-.072Z"
 				style="fill:url(#a);fill-rule:nonzero"
@@ -30,7 +30,7 @@
 		</svg>
 	{:else}
 		<svg
-			class="w-32 h-32"
+			class="h-32 w-32"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
 			viewBox="0 0 897 934">
 			<path

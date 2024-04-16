@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="absolute filter blur-md will-change-transform animate-blob {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
+	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
 	{#if type == 1}
 		<svg
 			class="w-{size} h-{size}"

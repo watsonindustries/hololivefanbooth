@@ -7,6 +7,6 @@
 
 <a
 	{href}
-	class="btn btn-secondary btn-lg rounded-full font-geologica px-8 gap-2 border-0 hover:scale-105 transition-all">
+	class="btn btn-secondary btn-lg gap-2 rounded-full border-0 px-8 font-geologica transition-all hover:scale-105">
 	<Icon src={Kofi} size="24" />
 	Support Us on Ko-Fi</a>

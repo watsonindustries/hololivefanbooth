@@ -7,8 +7,8 @@
 </svelte:head>
 
 <template>
-	<div class="py-10 px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 font-geologica">
-		<h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
+	<div class="px-6 py-10 font-geologica sm:px-12 md:px-16 lg:px-24 xl:px-32">
+		<h1 class="mb-6 text-3xl font-bold">Privacy Policy</h1>
 
 		<div class="mb-8">
 			<p class="mb-4">
@@ -24,7 +24,7 @@
 			</p>
 		</div>
 
-		<h2 class="text-xl font-bold mb-4">Information We Collect</h2>
+		<h2 class="mb-4 text-xl font-bold">Information We Collect</h2>
 		<p class="mb-6">
 			We only collect anonymous data about your usage of our website through Plausible analytics. We
 			do not collect any personally identifiable information about you. Plausible analytics only
@@ -33,21 +33,21 @@
 			This data is collected and processed in a way that is GDPR compliant and hosted in the EU.
 		</p>
 
-		<h2 class="text-xl font-bold mb-4">Cookies</h2>
+		<h2 class="mb-4 text-xl font-bold">Cookies</h2>
 		<p class="mb-6">
 			We may also use cookies for functional purposes only. Cookies are small text files that are
 			stored on your device when you use our website. They are used to enhance your user experience
 			and make it more efficient. We do not use cookies for tracking or advertising purposes.
 		</p>
 
-		<h2 class="text-xl font-bold mb-4">How We Use Your Information</h2>
+		<h2 class="mb-4 text-xl font-bold">How We Use Your Information</h2>
 		<p class="mb-6">
 			We use the information collected through Plausible analytics to improve our website and
 			provide better services to you. We do not share this information with third parties or use it
 			for any other purposes.
 		</p>
 
-		<h2 class="text-xl font-bold mb-4">How We Protect Your Information</h2>
+		<h2 class="mb-4 text-xl font-bold">How We Protect Your Information</h2>
 		<p class="mb-6">
 			We take reasonable measures to protect your information from unauthorized access, use, and
 			disclosure. We use industry-standard encryption technologies and secure servers to protect
@@ -55,14 +55,14 @@
 			is 100% secure, so we cannot guarantee absolute security.
 		</p>
 
-		<h2 class="text-xl font-bold mb-4">Your Rights</h2>
+		<h2 class="mb-4 text-xl font-bold">Your Rights</h2>
 		<p class="mb-6">
 			You have the right to access, modify, or delete any personal information that we may have
 			collected about you. You can contact us at <a href="mailto:{contactEmail}" class="underline"
 				>{contactEmail}</a> to exercise these rights.
 		</p>
 
-		<h2 class="text-xl font-bold mb-4">Changes to This Privacy Policy</h2>
+		<h2 class="mb-4 text-xl font-bold">Changes to This Privacy Policy</h2>
 		<p class="mb-6">
 			We may update this Privacy Policy from time to time. We will notify you of any changes by
 			posting the new Privacy Policy on this page. You are advised to review this Privacy Policy

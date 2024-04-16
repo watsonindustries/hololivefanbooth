@@ -1,5 +1,5 @@
-import type { LayoutLoad } from './$types';
 import { host } from '../config.json';
+import type { LayoutLoad } from './$types';
 
 import boothLogoLarge from '$lib/assets/fanbooth-logo-large.png';
 

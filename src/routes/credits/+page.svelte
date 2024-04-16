@@ -26,26 +26,26 @@
 	<meta name="description" content="Credits to people that helped with the booth." />
 </svelte:head>
 
-<h1 class="text-7xl text-primary font-bold text-center my-6 font-geologica tracking-tighter">
+<h1 class="my-6 text-center font-geologica text-7xl font-bold tracking-tighter text-primary">
 	Credits
 </h1>
 
 <div class="space-y-4 font-geologica">
 	<div class="grid grid-cols-2 gap-4">
 		{#each creditsGrouped as credit}
-			<div class="flex flex-row text-xl space-x-4">
+			<div class="flex flex-row space-x-4 text-xl">
 				{#if credit.name}
 					<a
 						href={credit.link}
-						class="text-primary transition-colors hover:text-primary-focus ml-auto">
+						class="ml-auto text-primary transition-colors hover:text-primary-focus">
 						{credit.name}
 					</a>
 				{:else if credit.role}
-					<p class="text-secondary text-left">{credit.role}</p>
+					<p class="text-left text-secondary">{credit.role}</p>
 				{/if}
 			</div>
 		{/each}
 	</div>
 	<br />
-	<p class="text-2xl font-semibold text-primary text-center">...and many others!</p>
+	<p class="text-center text-2xl font-semibold text-primary">...and many others!</p>
 </div>

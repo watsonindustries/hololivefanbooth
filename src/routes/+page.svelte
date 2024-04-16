@@ -51,7 +51,7 @@
 		}
 	]} />
 
-<div class="hero min-h-screen bg-base-100 relative">
+<div class="hero relative min-h-screen bg-base-100">
 	<TriangleIcon
 		position="left-20 lg:left-48 top-16"
 		kind={TriangleKind.A}
@@ -76,28 +76,28 @@
 				width="1200"
 				height="800" />
 			<h1
-				class="text-6xl font-bold font-geologica text-transparent tracking-tight bg-clip-text bg-gradient-to-br from-primary to-secondary">
+				class="bg-gradient-to-br from-primary to-secondary bg-clip-text font-geologica text-6xl font-bold tracking-tight text-transparent">
 				DoKomi Hololive Fan Booth
 			</h1>
-			<h2 class="text-2xl font-light font-geologica">28.06.2024 - 30.06.2024</h2>
-			<p class="text-4xl font-geologica">Planning and funding are progressing!</p>
+			<h2 class="font-geologica text-2xl font-light">28.06.2024 - 30.06.2024</h2>
+			<p class="font-geologica text-4xl">Planning and funding are progressing!</p>
 			<a
 				href="#support"
-				class="btn btn-primary rounded-full px-12 hover:scale-105 transition-all font-geologica"
+				class="btn btn-primary rounded-full px-12 font-geologica transition-all hover:scale-105"
 				>Support Us</a>
 		</div>
 	</div>
 </div>
 
 <div class="hero h-72 bg-secondary bg-blend-multiply">
-	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold font-geologica text-primary tracking-tight">
+			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">
 				Learn <span class="text-base-100">more</span>
 			</h1>
 			<a
-				class="btn btn-primary btn-lg rounded-full px-12 hover:scale-105 transition-all font-geologica"
+				class="btn btn-primary btn-lg rounded-full px-12 font-geologica transition-all hover:scale-105"
 				href="/about">About</a>
 		</div>
 	</div>
@@ -106,22 +106,22 @@
 <Events />
 
 <div class="hero h-72 bg-secondary" id="share">
-	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica tracking-tight">Share</h1>
+			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">Share</h1>
 			<TwitterShareButton url={twitterIntentURL} />
 		</div>
 	</div>
 </div>
 
-<div class="hero h-90 bg-primary bg-sprinkle" id="support">
+<div class="h-90 bg-sprinkle hero bg-primary" id="support">
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-6">
-			<h1 class="mb-5 text-6xl font-bold font-geologica tracking-tight text-secondary">
+			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-secondary">
 				Support <span class="text-base-100">us</span>
 			</h1>
-			<p class="text-2xl font-semibold text-base-100 font-geologica">
+			<p class="font-geologica text-2xl font-semibold text-base-100">
 				With your support, we plan to create a meeting spot for fans, an artist rally, posters,
 				flyers, postcards, and more!
 			</p>
@@ -131,13 +131,13 @@
 </div>
 
 <div class="hero h-72 bg-secondary" id="share">
-	<div class="hero-overlay bg-triangles bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed" />
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
-			<h1 class="mb-5 text-6xl font-bold text-primary font-geologica tracking-tight">
+			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">
 				Follow us for updates
 			</h1>
-			<a class="btn btn-lg btn-circle font-mono text-4xl font-bold" href={officialBoothXURL}>𝕏</a>
+			<a class="btn btn-circle btn-lg font-mono text-4xl font-bold" href={officialBoothXURL}>𝕏</a>
 		</div>
 	</div>
 </div>
