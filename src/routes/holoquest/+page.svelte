@@ -110,7 +110,7 @@
 					charges may apply.
 				</p>
 				<p>
-					A smartphone capable of scanning QR codes is required. Installation of the DoKomi 2023 app
+					A smartphone capable of scanning QR codes is required. Installation of the DoKomi 2024 app
 					is not required, but recommended.
 				</p>
 				<p>

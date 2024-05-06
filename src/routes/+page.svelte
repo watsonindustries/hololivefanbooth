@@ -19,7 +19,7 @@
 	<title>Hololive Fan Booth - Home</title>
 	<meta
 		name="description"
-		content="Hololive Dokomi 2023 fan booth landing page - made by fans, for fans." />
+		content="Hololive Dokomi 2024 fan booth landing page - made by fans, for fans." />
 </svelte:head>
 
 <MetaTags
@@ -27,7 +27,7 @@
 		type: 'website',
 		url: data.host,
 		title: 'Hololive Fan Booth - Home',
-		description: 'Hololive Dokomi 2023 fan booth - made by fans, for fans.',
+		description: 'Hololive Dokomi 2024 fan booth - made by fans, for fans.',
 		images: [
 			{
 				url: data.thumbnailImgURL,
