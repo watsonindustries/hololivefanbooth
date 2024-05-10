@@ -28,7 +28,7 @@
 
 	<div class="hidden sm:block">
 		<!-- hidden on small (mobile) screens and visible on larger screens -->
-		<button class="btn btn-secondary btn-xl gap-2 rounded-full text-lg" on:click={openDialog}>
+		<button class="btn-xl btn btn-secondary gap-2 rounded-full text-lg" on:click={openDialog}>
 			<Icon src={QrCode} size="24px" />
 			Get holoquest app</button>
 	</div>
@@ -53,7 +53,7 @@
 				<Hqqr />
 				<div class="space-y-4 font-geologica">
 					<p>or visit</p>
-					<a href={holoquestURL} class="link link-secondary">{holoquestURL}</a>
+					<a href={holoquestURL} class="link-secondary link">{holoquestURL}</a>
 				</div>
 
 				<div class="modal-action" />

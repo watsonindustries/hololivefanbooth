@@ -25,7 +25,7 @@
 			{#each links as link}
 				<a
 					href={link.href}
-					class="duration-400 link link-hover link-secondary px-6 text-center font-medium transition ease-in-out"
+					class="duration-400 link-hover link-secondary link px-6 text-center font-medium transition ease-in-out"
 					>{link.name}</a>
 			{/each}
 		</div>

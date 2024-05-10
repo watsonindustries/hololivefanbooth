@@ -33,12 +33,12 @@
 				<h1 class="text-center text-8xl font-bold tracking-tighter text-secondary">Contact us!</h1>
 				<a
 					href={contactFormURL}
-					class="btn btn-outline btn-secondary btn-lg mx-auto max-w-xs rounded-full tracking-wide transition duration-500">
+					class="btn btn-secondary btn-outline btn-lg mx-auto max-w-xs rounded-full tracking-wide transition duration-500">
 					General Inquiries
 				</a>
 				<a
 					href="mailto:{contactEmail}"
-					class="btn btn-outline btn-secondary btn-lg mx-auto max-w-xs rounded-full tracking-wide transition duration-500">
+					class="btn btn-secondary btn-outline btn-lg mx-auto max-w-xs rounded-full tracking-wide transition duration-500">
 					Collaboration
 				</a>
 				<h2 class="text-center text-6xl font-bold tracking-tight text-secondary">Staff</h2>
@@ -46,7 +46,7 @@
 					{#each staffTwitter as { handle }}
 						<a
 							href={`https://twitter.com/${handle}`}
-							class="link link-hover link-secondary flex items-center justify-center gap-2 transition duration-500">
+							class="link-hover link-secondary link flex items-center justify-center gap-2 transition duration-500">
 							<Icon src={Twitter} size="20px" />
 							{handle}
 						</a>

@@ -12,7 +12,7 @@
 			<p transition:fly={{ y: -15, delay: 50 * i }}>
 				<a
 					href={link.href}
-					class="link link-secondary transition-colors"
+					class="link-secondary link transition-colors"
 					on:click={() => (open = false)}>{link.name}</a>
 			</p>
 		{/each}

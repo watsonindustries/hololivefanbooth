@@ -16,12 +16,12 @@ Command: npx @threlte/gltf@2.0.3 static/assets/models/keychains/bubba.glb
 
 	const component = forwardEventHandlers();
 
-	$: gltf.then((x) => console.log(x.nodes));
+	// $: gltf.then((x) => console.log(x.nodes));
 
 	function assetURLtoNodeName(assetURL: string): string {
 		let assetName = assetURL.split('/').pop()?.split('.').shift() ?? '';
 		let assetNameCap = assetName.charAt(0).toUpperCase() + assetName.slice(1);
-		console.log('Asset name cap:', assetNameCap);
+		// console.log('Asset name cap:', assetNameCap);
 		switch (assetNameCap) {
 			case 'Jimmy':
 				return 'Chimkin';
