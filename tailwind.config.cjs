@@ -34,14 +34,14 @@ const config = {
 		themes: [
 			{
 				light: {
-					...require('daisyui/src/colors/themes')['[data-theme=light]'],
+					...require('daisyui/src/theming/themes')['[data-theme=light]'],
 					primary: '#73dcff',
 					'primary-focus': '#546aff',
 					secondary: '#546aff',
 					'secondary-focus': '#3640f5'
 				},
 				dark: {
-					...require('daisyui/src/colors/themes')['[data-theme=dark]'],
+					...require('daisyui/src/theming/themes')['[data-theme=dark]'],
 					primary: '#73dcff',
 					'primary-focus': '#546aff',
 					secondary: '#546aff',
