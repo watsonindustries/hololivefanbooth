@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
-	<div class="hero h-[screen] sm:h-[75vh]">
+	<div class="hero h-[screen]">
 		<div class="hero-content mx-8 flex-col font-geologica lg:flex-row-reverse">
 			<img
 				width="800"
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 
-	<div class="hero h-[70vh] bg-secondary sm:h-[40vh]">
+	<div class="hero bg-secondary sm:h-[40vh]">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="mx-8 space-y-4 font-geologica">
 				<h1 class="text-center text-6xl font-bold tracking-tight text-primary">
@@ -48,7 +48,7 @@
 		</div>
 	</div>
 
-	<div class="hero h-[70vh] bg-transparent sm:h-[40vh]">
+	<div class="hero bg-transparent sm:h-[40vh]">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="mx-8 space-y-4 font-geologica">
 				<h1 class="text-center text-6xl font-bold tracking-tight text-base-100">

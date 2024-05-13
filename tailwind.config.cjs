@@ -38,14 +38,14 @@ const config = {
 					primary: '#73dcff',
 					'primary-focus': '#546aff',
 					secondary: '#546aff',
-					'secondary-focus': '#3640f5'
+					'secondary-focus': '#3640f5',
 				},
 				dark: {
 					...require('daisyui/src/theming/themes')['[data-theme=dark]'],
 					primary: '#73dcff',
 					'primary-focus': '#546aff',
 					secondary: '#546aff',
-					'secondary-focus': '#3640f5'
+					'secondary-focus': '#3640f5',
 				}
 			}
 		]

@@ -83,7 +83,7 @@
 			<p class="font-geologica text-4xl">Planning and funding are progressing!</p>
 			<a
 				href="#support"
-				class="btn btn-primary rounded-full px-12 font-geologica transition-all hover:scale-105"
+				class="btn btn-secondary rounded-full px-12 font-geologica transition-all hover:scale-105"
 				>Support Us</a>
 		</div>
 	</div>
@@ -97,7 +97,7 @@
 				Learn <span class="text-base-100">more</span>
 			</h1>
 			<a
-				class="btn btn-primary btn-lg rounded-full px-12 font-geologica transition-all hover:scale-105"
+				class="btn btn-secondary btn-lg rounded-full px-12 font-geologica transition-all hover:scale-105"
 				href="/about">About</a>
 		</div>
 	</div>
