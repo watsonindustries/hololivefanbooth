@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { Canvas } from '@threlte/core';
-	import MerchScene from '$lib/components/MerchScene.svelte';
+	import MerchCard from '$lib/components/MerchCard.svelte';
 
 	export let data: PageData;
 </script>
@@ -18,21 +17,7 @@
 	<div class="grid grid-cols-1 gap-4 px-2 sm:grid-cols-2 xl:grid-cols-3" id="merch-grid-container">
 		<!-- Your content here -->
 		{#each data.merch as merch}
-			<div class="card min-w-64 bg-secondary shadow-xl">
-				<div class="min-h-60">
-					<Canvas>
-						<MerchScene assetURL={merch.model}></MerchScene>
-					</Canvas>
-				</div>
-				<div class="card-body font-geologica">
-					<h2 class="card-title text-5xl font-bold tracking-tight">{merch.name}</h2>
-					<p class="text-2xl">{merch.description || ''}</p>
-					<div class="card-actions mt-4 justify-start">
-						<p class="text-sm text-base-content">In stock: {merch.quantity}</p>
-						<!-- <button class="btn btn-primary rounded-full">View</button> -->
-					</div>
-				</div>
-			</div>
+			<MerchCard {merch} />
 		{:else}
 			Nothing found...
 		{/each}

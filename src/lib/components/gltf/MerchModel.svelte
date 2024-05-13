@@ -48,7 +48,7 @@ Command: npx @threlte/gltf@2.0.3 static/assets/models/keychains/bubba.glb
 		<slot name="fallback" />
 	{:then gltf}
 		<T.Mesh geometry={gltf.nodes[assetURLtoNodeName(assetURL)].geometry} castShadow>
-			<T.MeshStandardMaterial color="#ffffff"></T.MeshStandardMaterial>
+			<T.MeshStandardMaterial color="#efefef"></T.MeshStandardMaterial>
 		</T.Mesh>
 	{:catch error}
 		<slot name="error" {error} />

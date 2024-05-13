@@ -23,4 +23,8 @@
 
 <T.DirectionalLight position={[10, 10, 10]} intensity={0.9} color="white" castShadow />
 
-<MerchModel scale={0.3} position={[0, -3, 0]} rotation.y={rotation} {assetURL}></MerchModel>
+<MerchModel scale={0.3} position={[0, -3, 0]} rotation.y={rotation} {assetURL}>
+	<span slot="fallback">
+		<p>Loading...</p>
+	</span>
+</MerchModel>
