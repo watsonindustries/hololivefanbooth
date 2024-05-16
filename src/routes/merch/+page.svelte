@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import MerchCard from '$lib/components/MerchCard.svelte';
+	import Pagination from '$lib/components/Pagination.svelte';
 
 	export let data: PageData;
 </script>
@@ -22,7 +23,6 @@
 	</section>
 
 	<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3" id="merch-grid-container">
-		<!-- Your content here -->
 		{#each data.merch as merch}
 			<MerchCard {merch} />
 		{:else}
@@ -31,16 +31,6 @@
 	</div>
 
 	<section class="flex justify-center" id="pagination">
-		<div class="join">
-			{#each { length: data.totalPages } as _, i}
-				<a
-					class="btn join-item"
-					class:btn-active={i + 1 == data.page}
-					class:btn-primary={i + 1 == data.page}
-					class:text-secondary-content={i + 1 == data.page}
-					href="/merch?page={i + 1}"
-					data-sveltekit-reload>{i + 1}</a>
-			{/each}
-		</div>
+		<Pagination totalPages={data.totalPages} currentPage={data.page} />
 	</section>
 </section>
