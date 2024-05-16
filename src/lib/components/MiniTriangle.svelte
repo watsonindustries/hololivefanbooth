@@ -2,12 +2,14 @@
 	export let type = 1;
 	export let position = 'top-24';
 	export let delay = 'animation-delay-2000';
+	let classname = '';
+	export { classname as class };
 
 	export let size = 32;
 </script>
 
 <div
-	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
+	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay} {classname}">
 	{#if type == 1}
 		<svg
 			class="w-{size} h-{size}"

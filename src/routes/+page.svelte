@@ -56,16 +56,19 @@
 		position="left-20 lg:left-48 top-16"
 		kind={TriangleKind.A}
 		delay="animation-delay-2000" />
-	<TriangleIcon position="left-10 lg:left-24" />
-	<TriangleIcon position="top-60 lg:top-36" delay="animation-delay-2000" />
-	<TriangleIcon position="right-12 top-32" kind={TriangleKind.A} />
+	<TriangleIcon position="left-10 lg:left-24" class="hidden md:block" />
+	<TriangleIcon position="top-36 md:top-60 lg:top-36" delay="animation-delay-2000" />
+	<TriangleIcon position="right-12 top-32" class="hidden md:block" kind={TriangleKind.A} />
 	<TriangleIcon
-		position="right-24 top-60 lg:top-96"
+		position="right-4 top-8 md:right-24 md:top-60 lg:top-96"
 		delay="animation-delay-4000"
 		kind={TriangleKind.B} />
-	<TriangleIcon position="right-2/3 lg:right-20" delay="animation-delay-2000" />
+	<TriangleIcon
+		position="right-2/3 top-80 lg:right-20"
+		delay="animation-delay-2000"
+		class="hidden md:block" />
 
-	<MiniTriangle position="left-1/3 top-1/3" delay="animation-delay-2000" />
+	<MiniTriangle position="left-1/3 top-1/3" delay="animation-delay-2000" class="hidden md:block" />
 	<MiniTriangle position="right-1/4 top-1/4" delay="animation-delay-1000" type={2} />
 
 	<div class="hero-content text-center">
