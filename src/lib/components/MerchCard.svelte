@@ -17,9 +17,9 @@
 		</Canvas>
 	</div>
 	<div class="card-body font-geologica">
-		<h2 class="card-title text-4xl font-bold tracking-tight">{merch.name}</h2>
+		<h2 class="card-title text-4xl font-bold tracking-tight text-secondary-content">{merch.name}</h2>
 		<div class="card-actions justify-start mt-auto">
-			<p class="text-base-content">In stock: {merch.quantity}</p>
+			<p class="text-secondary-content">In stock: {merch.quantity}</p>
 			<span><p class="badge badge-neutral">{merch.category || ''}</p></span>
 			<!-- <button class="btn btn-primary rounded-full">View</button> -->
 		</div>

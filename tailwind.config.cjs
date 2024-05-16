@@ -38,6 +38,7 @@ const config = {
 					primary: '#73dcff',
 					'primary-focus': '#546aff',
 					secondary: '#546aff',
+					'secondary-content': '#fff',
 					'secondary-focus': '#3640f5',
 				},
 				dark: {
