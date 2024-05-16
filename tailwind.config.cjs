@@ -28,7 +28,7 @@ const config = {
 		}
 	},
 
-	plugins: [require('daisyui')],
+	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 
 	daisyui: {
 		themes: [
@@ -36,7 +36,7 @@ const config = {
 				light: {
 					...require('daisyui/src/theming/themes')['[data-theme=light]'],
 					primary: '#73dcff',
-					'primary-focus': '#546aff',
+					'primary-focus': '#33cefd',
 					secondary: '#546aff',
 					'secondary-content': '#fff',
 					'secondary-focus': '#3640f5',
@@ -44,7 +44,7 @@ const config = {
 				dark: {
 					...require('daisyui/src/theming/themes')['[data-theme=dark]'],
 					primary: '#73dcff',
-					'primary-focus': '#546aff',
+					'primary-focus': '#33cefd',
 					secondary: '#546aff',
 					'secondary-focus': '#3640f5',
 				}
