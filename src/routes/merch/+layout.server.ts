@@ -8,7 +8,7 @@ export const load = (async ({ url }) => {
 	const client = new HoloENFansClient(HOLOENFANS_CMS_API_KEY);
 	const page = url.searchParams.get('page') || 1;
 
-	const resp = await client.get('/api/fanmerch', { page });
+	const resp = await client.get('/api/fanmerch', { page, limit: 8 });
 	const { docs: merch, totalPages } = resp;
 
 	return { merch, totalPages, page };
