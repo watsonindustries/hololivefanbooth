@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { T, useTask } from '@threlte/core';
-	import { interactivity } from '@threlte/extras';
+	import { interactivity, OrbitControls } from '@threlte/extras';
 
 	import MerchModel from '$lib/components/gltf/MerchModel.svelte';
 
 	export let assetURL: string;
+	export let interactive = false;
 
 	interactivity();
 
@@ -19,7 +20,11 @@
 	position={[10, 10, 10]}
 	on:create={({ ref }) => {
 		ref.lookAt(0, 1, 0);
-	}}></T.PerspectiveCamera>
+	}}>
+	{#if interactive}
+		<OrbitControls enableDamping />
+	{/if}
+</T.PerspectiveCamera>
 
 <T.DirectionalLight position={[10, 10, 10]} intensity={0.9} color="white" castShadow />
 

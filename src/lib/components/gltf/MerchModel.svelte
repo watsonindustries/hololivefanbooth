@@ -18,6 +18,7 @@ Command: npx @threlte/gltf@2.0.3 static/assets/models/keychains/bubba.glb
 
 	// $: gltf.then((x) => console.log(x.nodes));
 
+	// FIXME: Use a more dynamic approach lol
 	function assetURLtoNodeName(assetURL: string): string {
 		let assetName = assetURL.split('/').pop()?.split('.').shift() ?? '';
 		let assetNameCap = assetName.charAt(0).toUpperCase() + assetName.slice(1);
@@ -48,7 +49,7 @@ Command: npx @threlte/gltf@2.0.3 static/assets/models/keychains/bubba.glb
 		<slot name="fallback" />
 	{:then gltf}
 		<T.Mesh geometry={gltf.nodes[assetURLtoNodeName(assetURL)].geometry} castShadow>
-			<T.MeshStandardMaterial color="#efefef"></T.MeshStandardMaterial>
+			<T.MeshStandardMaterial color={'#ffffff'}></T.MeshStandardMaterial>
 		</T.Mesh>
 	{:catch error}
 		<slot name="error" {error} />
