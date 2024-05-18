@@ -31,7 +31,7 @@
 		</section>
 	</section>
 
-	<section id="stock-price">
+	<section id="stock-price" class="min-w-fit">
 		<p class="text-xl text-secondary" id="price">
 			{#if data.merchItem.price > 0}
 				{#if data.merchItem.price < 100}
