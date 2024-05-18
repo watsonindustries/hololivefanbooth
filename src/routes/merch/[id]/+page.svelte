@@ -50,3 +50,11 @@
 		<span><p class="badge badge-secondary">{data.merchItem.category || ''}</p></span>
 	</section>
 </section>
+
+<section class="flex items-center mt-4" id="page-navigation">
+	<a
+		href="/merch"
+		class="btn btn-secondary mx-auto rounded-full px-4 py-2 transition-all hover:scale-105"
+		id="back-to-merch"
+		>Back to Merch</a>
+</section>
