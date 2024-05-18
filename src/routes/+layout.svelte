@@ -2,10 +2,21 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import '../app.postcss';
 
-	import Navigation from '$lib/components/Navigation.svelte';
-	import type { LayoutData } from './$types';
+	import { onNavigate } from '$app/navigation';
 
-	export let data: LayoutData;
+	import Navigation from '$lib/components/Navigation.svelte';
+
+	// View transition
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <Navigation />
