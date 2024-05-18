@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { T, useTask } from '@threlte/core';
-	import { interactivity, OrbitControls } from '@threlte/extras';
-
-	import MerchModel from '$lib/components/gltf/MerchModel.svelte';
+	import { GLTF, interactivity, OrbitControls } from '@threlte/extras';
 
 	export let assetURL: string;
 	export let interactive = false;
@@ -26,10 +24,14 @@
 	{/if}
 </T.PerspectiveCamera>
 
-<T.DirectionalLight position={[10, 10, 10]} intensity={0.9} color="white" castShadow />
+<T.DirectionalLight position={[10, 10, 10]} intensity={1.5} color="#fff" castShadow />
 
-<MerchModel scale={0.3} position={[0, -3, 0]} rotation.y={rotation} {assetURL}>
-	<span slot="fallback">
-		<p>Loading...</p>
-	</span>
-</MerchModel>
+<GLTF
+	url={assetURL}
+	scale={0.3}
+	position={[0, -3, 0]}
+	rotation.y={rotation}
+	{interactive}
+	useDraco
+	useMeshopt>
+</GLTF>
