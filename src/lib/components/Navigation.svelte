@@ -14,12 +14,12 @@
 			href: '/about'
 		},
 		{
-			name: 'Contact Us',
-			href: '/contact'
+			name: 'Merch',
+			href: '/merch'
 		},
 		{
-			name: 'Support Us',
-			href: '/#support'
+			name: 'Contact Us',
+			href: '/contact'
 		},
 		{
 			name: 'HoloQuest',
