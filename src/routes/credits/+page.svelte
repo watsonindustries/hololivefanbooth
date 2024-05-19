@@ -1,24 +1,16 @@
 <script lang="ts">
-	const credits = [
-		{ name: 'Dominik K', role: 'Fan Booth Organizer', link: 'https://twitter.com/Dominik_KFBeats' },
-		{ name: 'Vrontis', role: 'Fan Booth Organizer', link: 'https://vrontis.dev' },
-		{ name: 'Pungson Mori', role: 'Illustrator', link: 'https://twitter.com/333aalloonnHD' },
-		{ name: 'SpiritSnare', role: 'Designer', link: 'https://twitter.com/Spiritsnare' },
-		{
-			name: 'danirukun',
-			role: 'Web and HoloQuest App Development',
-			link: 'https://twitter.com/DaniruKun'
-		},
-		{ name: 'CenTdemeern1', role: 'Web Development', link: 'https://linktr.ee/centdemeern1' },
-		{
-			name: 'Wesleydm1999',
-			role: 'Project Management',
-			link: 'https://x.com/wesleydm1999'
-		},
-		{ name: 'Elmi', role: 'Graphic Design and Art', link: 'https://twitter.com/Elmi39Project' }
-	];
+	import type { PageData } from './$types';
 
-	const creditsGrouped = credits.map(({ name, link, role }) => [{ name, link }, { role }]).flat();
+	export let data: PageData;
+
+	$: ({ people } = data);
+
+	$: creditsGrouped = people
+		.map(({ nickname, links, role }) => {
+			let link = links?.[0].url;
+			return [{ nickname, link }, { role }];
+		})
+		.flat();
 </script>
 
 <svelte:head>
@@ -34,11 +26,11 @@
 	<div class="grid grid-cols-2 gap-4">
 		{#each creditsGrouped as credit}
 			<div class="flex flex-row items-center space-x-4 text-xl">
-				{#if credit.name}
+				{#if credit.nickname}
 					<a
 						href={credit.link}
 						class="ml-auto text-primary transition-colors hover:text-primary-focus">
-						{credit.name}
+						{credit.nickname}
 					</a>
 				{:else if credit.role}
 					<p class="mr-4 text-left text-secondary">{credit.role}</p>
