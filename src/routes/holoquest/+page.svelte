@@ -114,7 +114,7 @@
 					is not required, but recommended.
 				</p>
 				<p>
-					For any other questions and support, please <a href="/contact" class="link link-primary"
+					For any other questions and support, please <a href="/contact" class="link-primary link"
 						>contact the booth staff</a
 					>.
 				</p>

@@ -33,7 +33,7 @@
 <div class="space-y-4 font-geologica">
 	<div class="grid grid-cols-2 gap-4">
 		{#each creditsGrouped as credit}
-			<div class="flex flex-row space-x-4 text-xl">
+			<div class="flex flex-row items-center space-x-4 text-xl">
 				{#if credit.name}
 					<a
 						href={credit.link}
@@ -41,7 +41,7 @@
 						{credit.name}
 					</a>
 				{:else if credit.role}
-					<p class="text-left text-secondary">{credit.role}</p>
+					<p class="mr-4 text-left text-secondary">{credit.role}</p>
 				{/if}
 			</div>
 		{/each}

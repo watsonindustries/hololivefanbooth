@@ -4,10 +4,12 @@
 	export let kind: TriangleKind = TriangleKind.A;
 	export let position = 'top-24';
 	export let delay = 'animation-delay-2000';
+	let classname = '';
+	export { classname as class };
 </script>
 
 <div
-	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay}">
+	class="absolute animate-blob blur-md filter will-change-transform {position} mix-blend-multiply dark:mix-blend-soft-light {delay} {classname}">
 	{#if kind == TriangleKind.A}
 		<svg class="h-32 w-32" viewBox="0 0 3832 3861"
 			><path

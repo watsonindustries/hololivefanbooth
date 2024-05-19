@@ -14,12 +14,12 @@
 			href: '/about'
 		},
 		{
-			name: 'Contact Us',
-			href: '/contact'
+			name: 'Merch',
+			href: '/merch'
 		},
 		{
-			name: 'Support Us',
-			href: '/#support'
+			name: 'Contact Us',
+			href: '/contact'
 		},
 		{
 			name: 'HoloQuest',
@@ -40,7 +40,7 @@
 
 <div class="hidden justify-start space-x-4 align-middle md:flex">
 	<ul
-		class="menu menu-horizontal mx-auto px-1 font-geologica font-semibold text-secondary dark:text-primary">
+		class="menu menu-horizontal mx-auto px-1 font-geologica tracking-wide text-secondary dark:text-primary">
 		{#each links as link}
 			<li><a href={link.href} class="hover:text-primary-focus">{link.name}</a></li>
 		{/each}

@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
-	<div class="hero h-[screen] sm:h-[75vh]">
+	<div class="hero h-[screen]">
 		<div class="hero-content mx-8 flex-col font-geologica lg:flex-row-reverse">
 			<img
 				width="800"
@@ -23,14 +23,14 @@
 				<p class="py-6 text-2xl font-semibold text-base-100">
 					The unofficial Fan Booth is a project organised for the third year in a row at <a
 						href="https://www.dokomi.de/en"
-						class="link link-secondary transition-colors">DoKomi</a
+						class="link-secondary link transition-colors">DoKomi</a
 					>, Germany's biggest Anime and Japan Expo.
 				</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="hero h-[70vh] bg-secondary sm:h-[40vh]">
+	<div class="hero bg-secondary sm:h-[40vh]">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="mx-8 space-y-4 font-geologica">
 				<h1 class="text-center text-6xl font-bold tracking-tight text-primary">
@@ -48,17 +48,17 @@
 		</div>
 	</div>
 
-	<div class="hero h-[70vh] bg-transparent sm:h-[40vh]">
+	<div class="hero bg-transparent sm:h-[40vh]">
 		<div class="hero-content flex-col lg:flex-row-reverse">
 			<div class="mx-8 space-y-4 font-geologica">
 				<h1 class="text-center text-6xl font-bold tracking-tight text-base-100">
 					What is <span class="text-secondary underline">hololive</span>?
 				</h1>
 				<p class="py-6 text-2xl font-semibold text-base-100">
-					<a href="https://hololivepro.com/en/" class="link link-secondary transition-colors"
+					<a href="https://hololivepro.com/en/" class="link-secondary link transition-colors"
 						>Hololive Production</a>
 					is a VTuber agency consisting of hololive and HOLOSTARS. Owned by the Japanese company
-					<a href="https://cover-corp.com" class="link link-secondary transition-colors"
+					<a href="https://cover-corp.com" class="link-secondary link transition-colors"
 						>Cover Corporation</a
 					>, Hololive's VTubers deliver regular livestreams on platforms like YouTube and Twitch,
 					where they engage in activities ranging from singing to playing video games.
