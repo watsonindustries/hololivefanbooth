@@ -24,7 +24,10 @@
 	{/if}
 </T.PerspectiveCamera>
 
-<T.DirectionalLight position={[10, 10, 10]} intensity={1.5} color="#fff" castShadow />
+<T.AmbientLight intensity={0.3} color="#eee" />
+
+<T.DirectionalLight position={[5, 10, 7.5]} intensity={1.2} color="#fff" castShadow />
+<T.SpotLight position={[-5, 10, -7.5]} intensity={1} color="#fff" castShadow />
 
 <GLTF
 	url={assetURL}
