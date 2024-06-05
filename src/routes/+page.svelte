@@ -83,11 +83,7 @@
 				DoKomi Hololive Fan Booth
 			</h1>
 			<h2 class="font-geologica text-2xl font-light">28.06.2024 - 30.06.2024</h2>
-			<p class="font-geologica text-4xl">Planning and funding are progressing!</p>
-			<a
-				href="#support"
-				class="btn btn-secondary rounded-full px-12 font-geologica transition-all hover:scale-105"
-				>Support Us</a>
+			<h4 class="font-geologica text-4xl font-light">Hall 17 Booth B04</h4>
 		</div>
 	</div>
 </div>
