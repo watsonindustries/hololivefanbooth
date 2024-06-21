@@ -10,4 +10,4 @@ export const twitterIntentURL =
 
 export const officialBoothXURL = 'https://x.com/holofanbooth';
 export const hololiveFanBoothDokomiAppURL = 'https://webapp.dokomi.de/explore/c/107977';
-export const holoquestURL = 'https://holoquest.hololivefanbooth.com';
+export const holoquestURL = 'https://app.holoquest.app';

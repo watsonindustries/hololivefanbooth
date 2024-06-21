@@ -8,10 +8,6 @@
 		<div class="space-y-8">
 			<h1 class="text-8xl font-bold tracking-tighter text-base-100">Plans</h1>
 			<div class="space-y-6 font-semibold text-base-100">
-				<!-- <p class="text-4xl">
-					<a href="/holoquest" class="hover:text-primary transition-colors"
-						>HoloQuest Stamp Rally</a>
-				</p> -->
 				{#each events as event}
 					<p class="text-4xl">{event}</p>
 				{/each}

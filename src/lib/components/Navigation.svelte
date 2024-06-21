@@ -22,7 +22,7 @@
 			href: '/contact'
 		},
 		{
-			name: 'HoloQuest',
+			name: 'Holoquest',
 			href: '/holoquest'
 		},
 		{

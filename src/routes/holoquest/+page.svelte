@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Hololive Fan Booth - HoloQuest</title>
+	<title>Hololive Fan Booth - holoquest</title>
 	<meta name="description" content="HoloQuest app landing page." />
 </svelte:head>
 
@@ -22,14 +22,14 @@
 	openGraph={{
 		type: 'website',
 		url: data.host,
-		title: 'Hololive Fan Booth - HoloQuest',
-		description: 'HoloQuest - A fan stamp rally for DoKomi 2024',
+		title: 'Hololive Fan Booth - holoquest',
+		description: 'holoquest - A fan stamp rally for DoKomi 2024',
 		images: [
 			{
 				url: new URL(holoquestTwitterCard, data.host).toString(),
 				width: 700,
 				height: 466,
-				alt: 'HoloQuest app'
+				alt: 'holoquest app'
 			}
 		]
 	}}
@@ -49,15 +49,14 @@
 
 <div class="bg-sprinkle hero min-h-screen bg-base-100">
 	<div class="hero-content text-center">
-		<div class="max-w-xl">
+		<div class="max-w-xl font-geologica">
 			<h1
-				class="bg-gradient-to-br from-primary to-secondary bg-clip-text font-geologica text-6xl font-bold text-transparent lg:text-8xl">
-				HoloQuest
+				class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-6xl font-bold text-transparent lg:text-8xl">
+				holoquest
 			</h1>
-			<p class="py-6 font-geologica text-xl text-secondary">
-				A live, interactive stamp ralley for Hololive fans.
-			</p>
-			<HqOnboarding />
+			<p class="py-6 text-xl text-secondary font-semibold">A live, interactive stamp ralley for Hololive fans.</p>
+			<p class="text-lg text-secondary">Coming Soon!</p>
+			<!-- <HqOnboarding /> -->
 		</div>
 	</div>
 </div>
