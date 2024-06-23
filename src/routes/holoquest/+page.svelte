@@ -54,7 +54,9 @@
 				class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-6xl font-bold text-transparent lg:text-8xl">
 				holoquest
 			</h1>
-			<p class="py-6 text-xl text-secondary font-semibold">A live, interactive stamp ralley for Hololive fans.</p>
+			<p class="py-6 text-xl font-semibold text-secondary">
+				A live, interactive stamp ralley for Hololive fans.
+			</p>
 			<p class="text-lg text-secondary">Coming Soon!</p>
 			<!-- <HqOnboarding /> -->
 		</div>

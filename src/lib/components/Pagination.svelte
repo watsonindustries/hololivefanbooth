@@ -3,7 +3,8 @@
 	export let currentPage = 1;
 </script>
 
-<div class="join">
+<!-- workaround for DaisyUI pagination bug -->
+<div class:join={totalPages > 1} class:rounded-l-xl={totalPages === 1} id="pagination">
 	{#each { length: totalPages } as _, i}
 		<a
 			class="btn join-item"

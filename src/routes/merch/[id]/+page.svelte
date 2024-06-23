@@ -51,10 +51,9 @@
 	</section>
 </section>
 
-<section class="flex items-center mt-4" id="page-navigation">
+<section class="mt-4 flex items-center" id="page-navigation">
 	<a
 		href="/merch"
 		class="btn btn-secondary mx-auto rounded-full px-4 py-2 transition-all hover:scale-105"
-		id="back-to-merch"
-		>Back to Merch</a>
+		id="back-to-merch">Back to Merch</a>
 </section>
