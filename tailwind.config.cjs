@@ -1,5 +1,5 @@
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
 
 	theme: {
 		extend: {
@@ -28,7 +28,7 @@ const config = {
 		}
 	},
 
-	plugins: [require('@tailwindcss/typography'), require('daisyui')],
+	plugins: [require('@tailwindcss/typography'), require('daisyui'), require('flowbite/plugin')],
 
 	daisyui: {
 		themes: [
