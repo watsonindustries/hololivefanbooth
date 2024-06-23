@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { Carousel } from 'flowbite-svelte';
-
 	export let project = {
 		id: '',
 		name: 'Project',
@@ -18,26 +16,21 @@
 			}
 		]
 	};
-
-	export const images = project.media.map((media) => ({
-		src: media.url,
-		alt: '',
-		title: ''
-	}));
 </script>
 
 <div
 	class="card min-w-60 justify-end bg-secondary shadow-xl transition-colors duration-300 hover:bg-secondary-focus">
 	<a href={`/projects/${project.id}`}>
-		{#if project.media.length > 0}
-			<div class="min-h-60" id="project-preview-container-{project.name.toLowerCase()}">
-				<Carousel {images} duration={5000} let:Indicators>
-					{#if project.media.length > 1}
-						<Indicators />
-					{/if}
-				</Carousel>
-			</div>
-		{/if}
+		<div class="min-h-60" id="project-preview-container-{project.name.toLowerCase()}">
+			{#if project.media.length > 0}
+				<img src={project.media[0].url} alt="" class="h-full w-full object-cover" />
+			{:else}
+				<img
+					src="https://cdn.holoen.fans/hefw/media/fanbooth-logo-for-dokomi-web.png"
+					alt="Fan Booth Logo"
+					class="h-full w-full object-cover" />
+			{/if}
+		</div>
 		<div class="card-body font-geologica" id="project-info-{project.name.toLowerCase()}">
 			<h2 class="card-title text-4xl font-bold tracking-tight text-secondary-content">
 				{project.name}

@@ -4,11 +4,25 @@
 
 	export let data: PageData;
 
-	export const images = data.project.media.map((media) => ({
-		src: media.url,
-		alt: media.name,
-		title: ''
-	}));
+	let imageData;
+
+	if (data.project.media?.length > 0) {
+		imageData = data.project.media.map((media) => ({
+			src: media.url,
+			alt: media.name,
+			title: ''
+		}));
+	} else {
+		imageData = [
+			{
+				src: 'https://cdn.holoen.fans/hefw/media/fanbooth-logo-for-dokomi-web.png',
+				alt: 'Fan Booth Logo',
+				title: ''
+			}
+		];
+	}
+
+	export const images = imageData;
 </script>
 
 <svelte:head>
@@ -16,20 +30,14 @@
 	<meta name="description" content={data.project.description} />
 </svelte:head>
 
-{#if data.project.media.length > 0}
-	<div class="bg-secondary py-32 shadow-lg">
-		<Carousel
-			imgClass="object-contain h-full w-fit rounded-sm"
-			{images}
-			let:Controls
-			let:Indicators>
-			{#if data.project.media.length > 1}
-				<Controls />
-				<Indicators />
-			{/if}
-		</Carousel>
-	</div>
-{/if}
+<div class="bg-secondary py-32 shadow-lg">
+	<Carousel imgClass="object-contain h-full w-fit rounded-sm" {images} let:Controls let:Indicators>
+		{#if data.project.media.length > 1}
+			<Controls />
+			<Indicators />
+		{/if}
+	</Carousel>
+</div>
 
 <section
 	id="project-info"
