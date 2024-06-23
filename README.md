@@ -15,8 +15,6 @@ pnpm run dev -- --open
 
 To fetch data from the CMS, create a `.env` file in the root of the project by copying `example.env` and set the API key.
 
-```bash
-
 ## Building
 
 To create a production version of your app:
