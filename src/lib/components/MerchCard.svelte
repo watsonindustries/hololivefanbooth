@@ -24,7 +24,7 @@
 					<MerchScene assetURL={merch.model}></MerchScene>
 				</Canvas>
 			{:else if merch.thumbnail && merch.thumbnail.url !== '' && merch.thumbnail.url !== undefined}
-				<img src={merch.thumbnail.url} alt="" class="h-full w-full rounded-t-2xl object-contain" />
+				<img src={merch.thumbnail.url} alt="" class="h-full w-full rounded-t-2xl object-cover" />
 			{:else}
 				<p class="text-secondary-content">No image found...</p>
 			{/if}
