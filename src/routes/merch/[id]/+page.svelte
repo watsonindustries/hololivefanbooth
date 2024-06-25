@@ -11,11 +11,17 @@
 	<meta name="description" content={data.merchItem.description} />
 </svelte:head>
 
-<div class="min-h-[70vh] bg-secondary shadow-lg">
-	<Canvas>
-		<MerchScene assetURL={data.merchItem.model} interactive></MerchScene>
-	</Canvas>
-</div>
+{#if data.merchItem.model !== '' && data.merchItem.model !== undefined}
+	<div class="min-h-[70vh] bg-secondary shadow-lg">
+		<Canvas>
+			<MerchScene assetURL={data.merchItem.model} interactive></MerchScene>
+		</Canvas>
+	</div>
+{:else if data.merchItem.thumbnail && data.merchItem.thumbnail.url !== '' && data.merchItem.thumbnail.url !== undefined}
+	<div class="h-[70vh] bg-secondary shadow-lg">
+		<img src={data.merchItem.thumbnail.url} alt="" class="h-full w-full object-scale-down" />
+	</div>
+{/if}
 
 <section
 	id="merch-info"
