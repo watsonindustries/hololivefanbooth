@@ -8,6 +8,9 @@
 		category: '',
 		quantity: 0,
 		model: '',
+		thumbnail: {
+			url: ''
+		},
 		price: 0
 	};
 </script>
@@ -16,12 +19,14 @@
 	class="card min-w-64 bg-secondary shadow-xl transition-colors duration-300 hover:bg-secondary-focus">
 	<a href={`/merch/${merch.id}`}>
 		<div class="min-h-60" id="merch-preview-container-{merch.name.toLowerCase()}">
-			{#if merch.model === '' || merch.model === undefined}
-				<p class="text-secondary-content">No model found...</p>
-			{:else}
+			{#if merch.model !== '' && merch.model !== undefined}
 				<Canvas>
 					<MerchScene assetURL={merch.model}></MerchScene>
 				</Canvas>
+			{:else if merch.thumbnail && merch.thumbnail.url !== '' && merch.thumbnail.url !== undefined}
+				<img src={merch.thumbnail.url} alt="" class="h-full w-full rounded-t-2xl object-cover" />
+			{:else}
+				<p class="text-secondary-content">No image found...</p>
 			{/if}
 		</div>
 
