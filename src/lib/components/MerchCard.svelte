@@ -18,7 +18,7 @@
 <div
 	class="card min-w-64 bg-secondary shadow-xl transition-colors duration-300 hover:bg-secondary-focus">
 	<a href={`/merch/${merch.id}`}>
-		<div class="min-h-60" id="merch-preview-container-{merch.name.toLowerCase()}">
+		<div class="h-80" id="merch-preview-container-{merch.name.toLowerCase()}">
 			{#if merch.model !== '' && merch.model !== undefined}
 				<Canvas>
 					<MerchScene assetURL={merch.model}></MerchScene>
