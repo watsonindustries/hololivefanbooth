@@ -57,8 +57,7 @@
 			<p class="py-6 text-xl font-semibold text-secondary">
 				A live, interactive stamp ralley for Hololive fans.
 			</p>
-			<p class="text-lg text-secondary">Coming Soon!</p>
-			<!-- <HqOnboarding /> -->
+			<HqOnboarding />
 		</div>
 	</div>
 </div>
