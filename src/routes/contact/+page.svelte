@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { contactEmail, contactFormURL } from '../../const';
 
-	import { Twitter } from '@steeze-ui/simple-icons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 
 	const staffTwitter = [
@@ -47,7 +46,7 @@
 						<a
 							href={`https://twitter.com/${handle}`}
 							class="link-hover link-secondary link flex items-center justify-center gap-2 transition duration-500">
-							<Icon src={Twitter} size="20px" />
+							<!-- <Icon src={Twitter} size="20px" /> -->
 							{handle}
 						</a>
 					{/each}
