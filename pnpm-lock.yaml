@@ -12,8 +12,8 @@ importers:
         specifier: ^6.15.19
         version: 6.15.19
       '@steeze-ui/heroicons':
-        specifier: ^2.3.0
-        version: 2.3.0
+        specifier: ^2.4.0
+        version: 2.4.0
       '@steeze-ui/svelte-icon':
         specifier: ^1.5.0
         version: 1.5.0(svelte@4.2.15)
@@ -626,8 +626,8 @@ packages:
   '@sanity/eventsource@5.0.1':
     resolution: {integrity: sha512-BFdRPTqVI76Nh18teu8850lV8DETdtJilFAlmQq/BdoXo88BSWBSTkIIi+H6AW1O9Nd7uT+9VRBqKuL2HKrYlA==}
 
-  '@steeze-ui/heroicons@2.3.0':
-    resolution: {integrity: sha512-tVOamjAd9ZzXgDwVKwbA3K+o86Z1ks/IMvqdgoCf9hKeGINVUIlAlGhM3wdpSmt7brIoBLgR70wlnsXGytZk9g==}
+  '@steeze-ui/heroicons@2.4.0':
+    resolution: {integrity: sha512-gxOytXYV/lQiGxkZQC+CP5IWCa+d/vscRKn4JfZXgF8MZEzg9wfl1tTi/GOr3Eg93YkhlhNDwTIGWjhMaEwmvw==}
 
   '@steeze-ui/simple-icons@1.7.1':
     resolution: {integrity: sha512-vIsurZBiP6ksg/6zvE6wQVKVludu3UFtePmIAWAbmfjlA6LcjGx+IpX0xNOhVfUs8dC8cMOVn2yLbDhQm5dLYA==}
@@ -2615,7 +2615,7 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@steeze-ui/heroicons@2.3.0': {}
+  '@steeze-ui/heroicons@2.4.0': {}
 
   '@steeze-ui/simple-icons@1.7.1': {}
 
