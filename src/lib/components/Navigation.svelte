@@ -27,7 +27,7 @@
 		},
 		{
 			name: 'Holoquest',
-			href: '/holoquest'
+			href: 'https://holoquest.app'
 		},
 		{
 			name: 'Credits',
