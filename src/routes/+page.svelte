@@ -19,7 +19,7 @@
 	<title>Hololive Fan Booth - Home</title>
 	<meta
 		name="description"
-		content="Hololive Dokomi 2024 fan booth landing page - made by fans, for fans." />
+		content="Hololive Dokomi 2025 fan booth landing page - made by fans, for fans." />
 </svelte:head>
 
 <MetaTags
@@ -27,7 +27,7 @@
 		type: 'website',
 		url: data.host,
 		title: 'Hololive Fan Booth - Home',
-		description: 'Hololive Dokomi 2024 fan booth - made by fans, for fans.',
+		description: 'Hololive Dokomi 2025 fan booth - made by fans, for fans.',
 		images: [
 			{
 				url: data.thumbnailImgURL,
@@ -82,8 +82,8 @@
 				class="bg-gradient-to-br from-primary to-secondary bg-clip-text font-geologica text-6xl font-bold tracking-tight text-transparent">
 				DoKomi Hololive Fan Booth
 			</h1>
-			<h2 class="font-geologica text-2xl font-light">28.06.2024 - 30.06.2024</h2>
-			<h4 class="font-geologica text-4xl font-light">Hall 17 Booth B04</h4>
+			<h2 class="font-geologica text-2xl font-light">06.06.2025 - 08.06.2025</h2>
+			<h4 class="font-geologica text-4xl font-light">Hall 10</h4>
 		</div>
 	</div>
 </div>

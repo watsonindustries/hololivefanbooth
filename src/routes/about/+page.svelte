@@ -6,7 +6,7 @@
 	<title>Hololive Fan Booth - About</title>
 	<meta
 		name="description"
-		content="Info about the Hololive Dokomi 2024 fan booth, such as who organizes it, where it is from, what are VTubers etc." />
+		content="Info about the Hololive Dokomi 2025 fan booth, such as who organizes it, where it is from, what are VTubers etc." />
 </svelte:head>
 
 <div class="bg-triangles bg-primary bg-fixed">
