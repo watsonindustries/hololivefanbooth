@@ -1,11 +1,21 @@
 <script lang="ts">
-	export let type = 1;
-	export let position = 'top-24';
-	export let delay = 'animation-delay-2000';
-	let classname = '';
-	export { classname as class };
+	
 
-	export let size = 32;
+	interface Props {
+		type?: number;
+		position?: string;
+		delay?: string;
+		class?: string;
+		size?: number;
+	}
+
+	let {
+		type = 1,
+		position = 'top-24',
+		delay = 'animation-delay-2000',
+		class: classname = '',
+		size = 32
+	}: Props = $props();
 </script>
 
 <div

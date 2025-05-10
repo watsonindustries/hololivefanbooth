@@ -2,7 +2,11 @@
 	import { Carousel } from 'flowbite-svelte';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 
 	let imageData;
 
@@ -31,12 +35,14 @@
 </svelte:head>
 
 <div class="bg-secondary py-32 shadow-lg">
-	<Carousel imgClass="object-contain h-full w-fit rounded-sm" {images} let:Controls let:Indicators>
-		{#if data.project.media.length > 1}
-			<Controls />
-			<Indicators />
-		{/if}
-	</Carousel>
+	<Carousel imgClass="object-contain h-full w-fit rounded-sm" {images}  >
+		{#snippet children({ Controls, Indicators })}
+				{#if data.project.media.length > 1}
+				<Controls />
+				<Indicators />
+			{/if}
+					{/snippet}
+		</Carousel>
 </div>
 
 <section

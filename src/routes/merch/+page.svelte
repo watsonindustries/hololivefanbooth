@@ -3,7 +3,11 @@
 	import MerchCard from '$lib/components/MerchCard.svelte';
 	import Pagination from '$lib/components/Pagination.svelte';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <svelte:head>

@@ -1,11 +1,20 @@
 <script lang="ts">
 	import { TriangleKind } from '../../const';
 
-	export let kind: TriangleKind = TriangleKind.A;
-	export let position = 'top-24';
-	export let delay = 'animation-delay-2000';
-	let classname = '';
-	export { classname as class };
+	interface Props {
+		kind?: TriangleKind;
+		position?: string;
+		delay?: string;
+		class?: string;
+	}
+
+	let {
+		kind = TriangleKind.A,
+		position = 'top-24',
+		delay = 'animation-delay-2000',
+		class: classname = ''
+	}: Props = $props();
+	
 </script>
 
 <div

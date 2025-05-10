@@ -1,16 +1,20 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
 
-	$: ({ people } = data);
+	let { data }: Props = $props();
 
-	$: creditsGrouped = people
+	let { people } = $derived(data);
+
+	let creditsGrouped = $derived(people
 		.map(({ nickname, links, role }) => {
 			let link = links?.[0].url;
 			return [{ nickname, link }, { role }];
 		})
-		.flat();
+		.flat());
 </script>
 
 <svelte:head>

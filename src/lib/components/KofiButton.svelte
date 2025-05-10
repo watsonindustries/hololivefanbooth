@@ -2,7 +2,11 @@
 	import { Kofi } from '@steeze-ui/simple-icons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 
-	export let href = 'https://ko-fi.com/dominik_k/goal?g=57';
+	interface Props {
+		href?: string;
+	}
+
+	let { href = 'https://ko-fi.com/dominik_k/goal?g=57' }: Props = $props();
 </script>
 
 <a

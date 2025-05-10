@@ -1,5 +1,9 @@
 <script lang="ts">
-	export let url = '#';
+	interface Props {
+		url?: string;
+	}
+
+	let { url = '#' }: Props = $props();
 </script>
 
 <a

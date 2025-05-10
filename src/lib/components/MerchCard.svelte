@@ -2,7 +2,7 @@
 	import { Canvas } from '@threlte/core';
 	import MerchScene from './MerchScene.svelte';
 
-	export let merch = {
+	let { merch = {
 		id: '',
 		name: 'Merch',
 		category: '',
@@ -12,7 +12,7 @@
 			url: ''
 		},
 		price: 0
-	};
+	} } = $props();
 </script>
 
 <div

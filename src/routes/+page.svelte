@@ -12,7 +12,11 @@
 
 	import { TriangleKind, officialBoothXURL, twitterIntentURL } from '../const';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <svelte:head>
@@ -89,7 +93,7 @@
 </div>
 
 <div class="hero h-72 bg-secondary bg-blend-multiply">
-	<div class="bg-triangles hero-overlay bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed"></div>
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
 			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">
@@ -105,7 +109,7 @@
 <Events />
 
 <div class="hero h-72 bg-secondary" id="share">
-	<div class="bg-triangles hero-overlay bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed"></div>
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
 			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">Share</h1>
@@ -130,7 +134,7 @@
 </div>
 
 <div class="hero h-72 bg-secondary" id="share">
-	<div class="bg-triangles hero-overlay bg-fixed" />
+	<div class="bg-triangles hero-overlay bg-fixed"></div>
 	<div class="hero-content text-center text-neutral-content">
 		<div class="max-w-md space-y-4">
 			<h1 class="mb-5 font-geologica text-6xl font-bold tracking-tight text-primary">

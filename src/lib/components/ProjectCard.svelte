@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let project = {
+	let { project = {
 		id: '',
 		name: 'Project',
 		description: '',
@@ -15,7 +15,7 @@
 				url: ''
 			}
 		]
-	};
+	} } = $props();
 </script>
 
 <div

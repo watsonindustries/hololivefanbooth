@@ -5,6 +5,11 @@
 	import { onNavigate } from '$app/navigation';
 
 	import Navigation from '$lib/components/Navigation.svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 
 	// View transition
 	onNavigate((navigation) => {
@@ -21,6 +26,6 @@
 
 <Navigation />
 
-<slot />
+{@render children?.()}
 
 <Footer />

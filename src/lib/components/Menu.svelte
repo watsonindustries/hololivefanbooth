@@ -1,9 +1,13 @@
 <script lang="ts">
 	import { fly, slide } from 'svelte/transition';
 
-	export let open = false;
 
-	export let links: ArrayLike<{ name: string; href: string }>;
+	interface Props {
+		open?: boolean;
+		links: ArrayLike<{ name: string; href: string }>;
+	}
+
+	let { open = $bindable(false), links }: Props = $props();
 </script>
 
 {#if open}
@@ -13,7 +17,7 @@
 				<a
 					href={link.href}
 					class="link-secondary link transition-colors"
-					on:click={() => (open = false)}>{link.name}</a>
+					onclick={() => (open = false)}>{link.name}</a>
 			</p>
 		{/each}
 	</div>

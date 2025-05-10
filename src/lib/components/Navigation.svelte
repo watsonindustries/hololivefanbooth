@@ -2,7 +2,7 @@
 	import { Hamburger } from 'svelte-hamburgers';
 	import Menu from './Menu.svelte';
 
-	let open = false;
+	let open = $state(false);
 
 	export const links = [
 		{

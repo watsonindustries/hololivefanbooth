@@ -1,6 +1,10 @@
 <script lang="ts">
-	export let totalPages: number;
-	export let currentPage = 1;
+	interface Props {
+		totalPages: number;
+		currentPage?: number;
+	}
+
+	let { totalPages, currentPage = 1 }: Props = $props();
 </script>
 
 <!-- workaround for DaisyUI pagination bug -->

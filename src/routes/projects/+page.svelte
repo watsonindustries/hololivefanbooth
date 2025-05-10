@@ -3,7 +3,11 @@
 	import Pagination from '$lib/components/Pagination.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <svelte:head>

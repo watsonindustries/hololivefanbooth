@@ -6,7 +6,7 @@
 	import { holoquestURL } from '../../const';
 	import Hqqr from './HQQR.svelte';
 
-	let showDialog = false;
+	let showDialog = $state(false);
 
 	function openDialog() {
 		showDialog = true;
@@ -28,7 +28,7 @@
 
 	<div class="hidden sm:block">
 		<!-- hidden on small (mobile) screens and visible on larger screens -->
-		<button class="btn-xl btn btn-secondary gap-2 rounded-full text-lg" on:click={openDialog}>
+		<button class="btn-xl btn btn-secondary gap-2 rounded-full text-lg" onclick={openDialog}>
 			<Icon src={QrCode} size="24px" />
 			Get holoquest app</button>
 	</div>
@@ -46,7 +46,7 @@
 		transition:fade={{ duration: 300 }}>
 		<div class="modal modal-open">
 			<div class="modal-box space-y-4">
-				<button class="btn btn-square btn-ghost absolute right-2 top-2" on:click={closeDialog}
+				<button class="btn btn-square btn-ghost absolute right-2 top-2" onclick={closeDialog}
 					><Icon src={XCircle} size="24"></Icon></button>
 				<h2 class="font-geologica text-xl font-bold text-primary">Get the HoloQuest app</h2>
 				<p class="font-geologica">Scan the QR code with your smartphone</p>
@@ -56,7 +56,7 @@
 					<a href={holoquestURL} class="link-secondary link">{holoquestURL}</a>
 				</div>
 
-				<div class="modal-action" />
+				<div class="modal-action"></div>
 			</div>
 		</div>
 	</dialog>

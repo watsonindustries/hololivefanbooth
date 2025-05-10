@@ -1,13 +1,19 @@
 <script lang="ts">
 	import { T, useTask } from '@threlte/core';
-	import { GLTF, interactivity, OrbitControls } from '@threlte/extras';
+	import { GLTF, interactivity, OrbitControls, useDraco } from '@threlte/extras';
 
-	export let assetURL: string;
-	export let interactive = false;
+	interface Props {
+		assetURL: string;
+		interactive?: boolean;
+	}
+
+	let { assetURL, interactive = false }: Props = $props();
 
 	interactivity();
 
-	let rotation = 0;
+	const dracoLoader = useDraco();
+
+	let rotation = $state(0);
 	useTask((delta) => {
 		rotation += delta * 0.2;
 	});
@@ -35,6 +41,6 @@
 	position={[0, -3, 0]}
 	rotation.y={rotation}
 	{interactive}
-	useDraco
+	{dracoLoader}
 	useMeshopt>
 </GLTF>
