@@ -20,17 +20,18 @@
 </script>
 
 <svelte:head>
-	<title>hololive Fan Booth - Home</title>
 	<meta
 		name="description"
 		content="hololive Dokomi 2025 fan booth landing page - made by fans, for fans." />
 </svelte:head>
 
 <MetaTags
+	title="Hololive Fan Booth - Home"
+	description="hololive Dokomi 2025 fan booth - made by fans, for fans."
 	openGraph={{
 		type: 'website',
 		url: data.host,
-		title: 'hololive Fan Booth - Home',
+		title: 'Hololive Fan Booth - Home',
 		description: 'hololive Dokomi 2025 fan booth - made by fans, for fans.',
 		images: [
 			{
