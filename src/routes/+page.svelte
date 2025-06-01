@@ -87,7 +87,7 @@
 				DoKomi Hololive Fan Booth
 			</h1>
 			<h2 class="font-geologica text-2xl font-light">06.06.2025 - 08.06.2025</h2>
-			<h4 class="font-geologica text-4xl font-light">Hall 10</h4>
+			<h4 class="font-geologica text-4xl font-light">10E21</h4>
 		</div>
 	</div>
 </div>
