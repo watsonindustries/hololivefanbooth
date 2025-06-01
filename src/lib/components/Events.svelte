@@ -1,5 +1,5 @@
 <script lang="ts">
-	const events = ['Buttons', 'Postcards', 'Prints', 'More goodies'];
+	const events = ['Artist Rally', 'Buttons', 'Postcards', 'Prints', 'More goodies'];
 </script>
 
 <div class="bg-sprinkle hero h-[75vh] w-full bg-primary">

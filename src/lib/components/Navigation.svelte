@@ -14,14 +14,6 @@
 			href: '/about'
 		},
 		{
-			name: 'Merch',
-			href: '/merch'
-		},
-		{
-			name: 'Projects',
-			href: '/projects'
-		},
-		{
 			name: 'Contact Us',
 			href: '/contact'
 		},
