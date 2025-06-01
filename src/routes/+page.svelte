@@ -20,24 +20,24 @@
 </script>
 
 <svelte:head>
-	<title>Hololive Fan Booth - Home</title>
+	<title>hololive Fan Booth - Home</title>
 	<meta
 		name="description"
-		content="Hololive Dokomi 2025 fan booth landing page - made by fans, for fans." />
+		content="hololive Dokomi 2025 fan booth landing page - made by fans, for fans." />
 </svelte:head>
 
 <MetaTags
 	openGraph={{
 		type: 'website',
 		url: data.host,
-		title: 'Hololive Fan Booth - Home',
-		description: 'Hololive Dokomi 2025 fan booth - made by fans, for fans.',
+		title: 'hololive Fan Booth - Home',
+		description: 'hololive Dokomi 2025 fan booth - made by fans, for fans.',
 		images: [
 			{
 				url: data.thumbnailImgURL,
 				width: 1200,
 				height: 800,
-				alt: 'Hololive Fan Booth'
+				alt: 'hololive Fan Booth'
 			}
 		]
 	}}
@@ -79,12 +79,12 @@
 		<div class="max-w-lg space-y-6">
 			<img
 				src={fanboothLogoLarge}
-				alt="DoKomi Hololive Fan Booth Logo Large"
+				alt="DoKomi hololive Fan Booth Logo Large"
 				width="1200"
 				height="800" />
 			<h1
 				class="bg-gradient-to-br from-primary to-secondary bg-clip-text font-geologica text-6xl font-bold tracking-tight text-transparent">
-				DoKomi Hololive Fan Booth
+				DoKomi hololive Fan Booth
 			</h1>
 			<h2 class="font-geologica text-2xl font-light">06.06.2025 - 08.06.2025</h2>
 			<h4 class="font-geologica text-4xl font-light">10E21</h4>
